@@ -1,0 +1,56 @@
+# Efinity Interface Configuration
+# Version: 2025.1.110
+# Date: 2025-12-29 01:49
+#
+# Copyright (C) 2013 - 2025 Efinix Inc. All rights reserved.
+#
+# Device: T8F81
+# Package: 81-ball FBGA (final)
+# Project: PWM_IO_Expander
+# Configuration mode: active (x1)
+# Timing Model: C2 (final)
+
+
+# Device setting
+design.set_device_property("1A","VOLTAGE","3.3","IOBANK")
+design.set_device_property("1B","VOLTAGE","3.3","IOBANK")
+design.set_device_property("1C","VOLTAGE","1.1","IOBANK")
+design.set_device_property("2A","VOLTAGE","3.3","IOBANK")
+design.set_device_property("2B","VOLTAGE","3.3","IOBANK")
+
+# Create instance
+design.create_output_gpio("OnBoardLEDs",3,0)
+design.create_pll_input_clock_gpio("CLKIN")
+design.create_input_gpio("CS")
+design.create_output_gpio("MISO")
+design.create_input_gpio("MOSI")
+design.create_input_clock_gpio("SCLK")
+design.create_block("CLKIN","PLL")
+design.create_block("OSC","OSC")
+
+# Set property, non-defaults
+design.set_property("CLKIN","CLKOUT0_EN","1","PLL")
+design.set_property("CLKIN","CLKOUT1_EN","0","PLL")
+design.set_property("CLKIN","CLKOUT2_EN","0","PLL")
+design.set_property("CLKIN","CLKOUT0_DIV","2","PLL")
+design.set_property("CLKIN","CLKOUT0_PIN","MainCLK","PLL")
+design.set_property("CLKIN","LOCKED_PIN","","PLL")
+design.set_property("CLKIN","M","24","PLL")
+design.set_property("CLKIN","N","1","PLL")
+design.set_property("CLKIN","O","8","PLL")
+design.set_property("CLKIN","REFCLK_FREQ","33.3333","PLL")
+design.set_property("CLKIN","RSTN_PIN","RST","PLL")
+design.set_property("OSC","CLKOUT_PIN","OSC","OSC")
+
+# Set resource assignment
+design.assign_pkg_pin("OnBoardLEDs[0]","C5")
+design.assign_pkg_pin("OnBoardLEDs[1]","B6")
+design.assign_pkg_pin("OnBoardLEDs[2]","C7")
+design.assign_pkg_pin("OnBoardLEDs[3]","A9")
+design.assign_pkg_pin("CLKIN","C3")
+design.assign_pkg_pin("CS","F3")
+design.assign_pkg_pin("MISO","A5")
+design.assign_pkg_pin("MOSI","H2")
+design.assign_pkg_pin("SCLK","C2")
+design.assign_resource("CLKIN","PLL_0","PLL")
+design.assign_resource("OSC","OSC_0","OSC")

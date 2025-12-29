@@ -1,0 +1,7 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Dec 29, 2025 11:26:48
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs

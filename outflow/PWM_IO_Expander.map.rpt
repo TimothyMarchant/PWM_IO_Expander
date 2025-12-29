@@ -1,0 +1,185 @@
+Efinity Synthesis report for project PWM_IO_Expander
+Version: 2025.1.110
+Generated at: Dec 29, 2025 11:26:48
+Copyright (C) 2013 - 2025  All rights reserved.
+
+Top-level Entity Name : PWM_IO_Expander
+
+family : Trion
+device : T8F81
+project : PWM_IO_Expander
+project-xml : C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml
+root : PWM_IO_Expander
+I,include : C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander
+output-dir : C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow
+work-dir : C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_syn
+write-efx-verilog : C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.map.v
+binary-db : C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb
+insert-ios : 0
+max-carry-cascade : 160
+max_mult : -1
+max_ram : -1
+seq_opt : 0
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+peri-syn-inference : 1
+peri-syn-instantiation : 1
+retiming : 0
+
+File List:
+
+C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v
+C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v
+C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\RX_FIFO.v
+C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v
+C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v
+C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v
+C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v
+C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v
+C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v
+C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v
+C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v
+
+### ### Report Section Start ### ###
+
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 0
+Total number of FFs with enable signals: 0
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 0
+Total number of FFs with set/reset signals: 0
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF Output: main/spislave/SecondRXDataLine[0](=0)
+FF Output: main/AddressBus[5](=0)
+FF Output: main/AddressBus[4](=0)
+FF Output: main/AddressBus[3](=0)
+FF Output: main/AddressBus[0](=0)
+FF Output: main/AddressBus[2](=0)
+FF Output: main/AddressBus[1](=0)
+FF Output: main/AddressBus[6](=0)
+FF Output: main/AddressBus[7](=0)
+FF Output: main/FirstRegister/SwitchValueUpper/ReadBus[3](=0)
+FF Output: main/FirstRegister/SwitchValueUpper/ReadBus[2](=0)
+FF Output: main/FirstRegister/SwitchValueUpper/ReadBus[1](=0)
+FF Output: main/FirstRegister/SwitchValueUpper/ReadBus[0](=0)
+FF Output: main/FirstRegister/SwitchValueUpper/ReadBus[4](=0)
+FF Output: main/FirstRegister/SwitchValueUpper/ReadBus[5](=0)
+FF Output: main/FirstRegister/SwitchValueUpper/ReadBus[6](=0)
+FF Output: main/FirstRegister/SwitchValueUpper/ReadBus[7](=0)
+FF Output: main/FirstRegister/SwitchValueLower/ReadBus[3](=0)
+FF Output: main/FirstRegister/SwitchValueLower/ReadBus[2](=0)
+FF Output: main/FirstRegister/SwitchValueLower/ReadBus[1](=0)
+FF Output: main/FirstRegister/SwitchValueLower/ReadBus[0](=0)
+FF Output: main/FirstRegister/SwitchValueLower/ReadBus[4](=0)
+FF Output: main/FirstRegister/SwitchValueLower/ReadBus[5](=0)
+FF Output: main/FirstRegister/SwitchValueLower/ReadBus[6](=0)
+FF Output: main/FirstRegister/SwitchValueLower/ReadBus[7](=0)
+FF Output: main/FirstRegister/TimerCountUpper/ReadBus[3](=0)
+FF Output: main/FirstRegister/TimerCountUpper/ReadBus[2](=0)
+FF Output: main/FirstRegister/TimerCountUpper/ReadBus[1](=0)
+FF Output: main/FirstRegister/TimerCountUpper/ReadBus[0](=0)
+FF Output: main/FirstRegister/TimerCountUpper/ReadBus[4](=0)
+FF Output: main/FirstRegister/TimerCountUpper/ReadBus[5](=0)
+FF Output: main/FirstRegister/TimerCountUpper/ReadBus[6](=0)
+FF Output: main/FirstRegister/TimerCountUpper/ReadBus[7](=0)
+FF Output: main/FirstRegister/TimerCountLower/ReadBus[3](=0)
+FF Output: main/FirstRegister/TimerCountLower/ReadBus[2](=0)
+FF Output: main/FirstRegister/TimerCountLower/ReadBus[1](=0)
+FF Output: main/FirstRegister/TimerCountLower/ReadBus[0](=0)
+FF Output: main/FirstRegister/TimerCountLower/ReadBus[4](=0)
+FF Output: main/FirstRegister/TimerCountLower/ReadBus[5](=0)
+FF Output: main/FirstRegister/TimerCountLower/ReadBus[6](=0)
+FF Output: main/FirstRegister/TimerCountLower/ReadBus[7](=0)
+FF Output: main/FirstRegister/TimerPrescalerUpper/ReadBus[3](=0)
+FF Output: main/FirstRegister/TimerPrescalerUpper/ReadBus[2](=0)
+FF Output: main/FirstRegister/TimerPrescalerUpper/ReadBus[1](=0)
+FF Output: main/FirstRegister/TimerPrescalerUpper/ReadBus[0](=0)
+FF Output: main/FirstRegister/TimerPrescalerUpper/ReadBus[4](=0)
+FF Output: main/FirstRegister/TimerPrescalerUpper/ReadBus[5](=0)
+FF Output: main/FirstRegister/TimerPrescalerUpper/ReadBus[6](=0)
+FF Output: main/FirstRegister/TimerPrescalerUpper/ReadBus[7](=0)
+FF Output: main/FirstRegister/TimerPrescalerLower/ReadBus[3](=0)
+FF Output: main/FirstRegister/TimerPrescalerLower/ReadBus[2](=0)
+FF Output: main/FirstRegister/TimerPrescalerLower/ReadBus[1](=0)
+FF Output: main/FirstRegister/TimerPrescalerLower/ReadBus[0](=0)
+FF Output: main/FirstRegister/TimerPrescalerLower/ReadBus[4](=0)
+FF Output: main/FirstRegister/TimerPrescalerLower/ReadBus[5](=0)
+FF Output: main/FirstRegister/TimerPrescalerLower/ReadBus[6](=0)
+FF Output: main/FirstRegister/TimerPrescalerLower/ReadBus[7](=0)
+FF Output: main/spislave/SecondRXDataLine[1](=0)
+FF Output: main/spislave/SecondRXDataLine[2](=0)
+FF Output: main/spislave/SecondRXDataLine[3](=0)
+FF Output: main/spislave/SecondRXDataLine[4](=0)
+FF Output: main/spislave/SecondRXDataLine[5](=0)
+FF Output: main/spislave/SecondRXDataLine[6](=0)
+FF Output: MISO(=0)
+FF instance: main/spislave/TXSPIShiftRegister/dff_21/i1(unreachable)
+FF instance: main/spislave/TXSPIShiftRegister/dff_21/i2(unreachable)
+FF instance: main/spislave/TXSPIShiftRegister/dff_21/i3(unreachable)
+FF instance: main/spislave/TXSPIShiftRegister/dff_21/i4(unreachable)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[0](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[1](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[2](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[3](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[4](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[5](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[6](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[7](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[8](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[9](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[10](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[11](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[12](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[13](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[14](=0)
+FF Output: main/FirstRegister/PWMTimer/prescalercounter[15](=0)
+FF Output: PWMOutputs[0](=0)
+FF instance: main/FirstRegister/PWMTimer/counter[0]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[1]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[2]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[3]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[4]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[5]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[6]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[7]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[8]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[9]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[10]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[11]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[12]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[13]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[14]~FF(unreachable)
+FF instance: main/FirstRegister/PWMTimer/counter[15]~FF(unreachable)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+ No clock loads in design
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	5
+OUTPUT PORTS    : 	5
+
+EFX_IBUF        : 	5
+EFX_OBUF        : 	5
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 0s
+Elapsed synthesis time : 0s

@@ -1,0 +1,45 @@
+DEBUG    : Initialising Efx::ConcurrencyControl with 20 threads [Debug]
+INFO     : --max_threads set to 20 
+INFO     : ***** Beginning Analysis ... *****
+INFO     : Analysis took 0.0086307 seconds.
+INFO     : 	Analysis took 0 seconds (approximately) in total CPU time.
+INFO     : Analysis virtual memory usage: begin = 309.824 MB, end = 310.024 MB, delta = 0.2 MB
+INFO     : 	Analysis peak virtual memory usage = 315.98 MB
+INFO     : Analysis resident set memory usage: begin = 406.388 MB, end = 406.588 MB, delta = 0.2 MB
+INFO     : 	Analysis peak resident set memory usage = 412.372 MB
+INFO     : ***** Ending Analysis ... *****
+INFO     : ***** Beginning Elaboration ... *****
+INFO     : Elaboration took 0.0041877 seconds.
+INFO     : 	Elaboration took 0 seconds (approximately) in total CPU time.
+INFO     : Elaboration virtual memory usage: begin = 310.024 MB, end = 310.096 MB, delta = 0.072 MB
+INFO     : 	Elaboration peak virtual memory usage = 315.98 MB
+INFO     : Elaboration resident set memory usage: begin = 406.588 MB, end = 406.66 MB, delta = 0.072 MB
+INFO     : 	Elaboration peak resident set memory usage = 412.372 MB
+INFO     : ***** Ending Elaboration ... *****
+INFO     : --max_threads set to 20 
+INFO     : ***** Beginning Analysis ... *****
+INFO     : Analysis took 0.0086309 seconds.
+INFO     : 	Analysis took 0 seconds (approximately) in total CPU time.
+INFO     : Analysis virtual memory usage: begin = 224.712 MB, end = 224.784 MB, delta = 0.072 MB
+INFO     : 	Analysis peak virtual memory usage = 318.936 MB
+INFO     : Analysis resident set memory usage: begin = 321.76 MB, end = 321.936 MB, delta = 0.176 MB
+INFO     : 	Analysis peak resident set memory usage = 416.856 MB
+INFO     : ***** Ending Analysis ... *****
+INFO     : ***** Beginning Elaboration ... *****
+INFO     : Elaboration took 0.0041218 seconds.
+INFO     : 	Elaboration took 0 seconds (approximately) in total CPU time.
+INFO     : Elaboration virtual memory usage: begin = 224.784 MB, end = 224.784 MB, delta = 0 MB
+INFO     : 	Elaboration peak virtual memory usage = 318.936 MB
+INFO     : Elaboration resident set memory usage: begin = 321.936 MB, end = 322.056 MB, delta = 0.12 MB
+INFO     : 	Elaboration peak resident set memory usage = 416.856 MB
+INFO     : ***** Ending Elaboration ... *****
+INFO     : --max_threads set to 20 
+INFO     : --max_threads set to 20 
+INFO     : --max_threads set to 20 
+INFO     : --max_threads set to 20 
+INFO     : --max_threads set to 20 
+INFO     : --max_threads set to 20 
+INFO     : --max_threads set to 20 
+INFO     : --max_threads set to 20 
+INFO     : --max_threads set to 20 
+INFO     : Deleting any pre-existing troute trace files

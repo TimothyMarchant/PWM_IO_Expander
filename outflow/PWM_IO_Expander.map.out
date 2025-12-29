@@ -1,0 +1,245 @@
+INFO     : Efinix FPGA Synthesis.
+INFO     : Version: 2025.1.110
+INFO     : Compiled: May  7 2025.
+INFO     : 
+INFO     : Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml"
+INFO     : Analyzing Verilog file 'C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(8): compiling module 'EFX_IBUF' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(16): compiling module 'EFX_OBUF' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(23): compiling module 'EFX_IO_BUF' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(33): compiling module 'EFX_CLKOUT' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(41): compiling module 'EFX_IREG' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(51): compiling module 'EFX_OREG' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(60): compiling module 'EFX_IOREG' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(75): compiling module 'EFX_IDDIO' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(87): compiling module 'EFX_ODDIO' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(99): compiling module 'EFX_GPIO_V1' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(124): compiling module 'EFX_GPIO_V2' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(149): compiling module 'EFX_GPIO_V3' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(186): compiling module 'EFX_PLL_V1' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(205): compiling module 'EFX_PLL_V2' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(231): compiling module 'EFX_PLL_V3' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(279): compiling module 'EFX_OSC_V1' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(285): compiling module 'EFX_OSC_V3' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(294): compiling module 'EFX_FPLL_V1' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(348): compiling module 'EFX_JTAG_V1' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(357): compiling module 'EFX_JTAG_CTRL' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(364): compiling module 'EFX_LVDS_RX_V1' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(381): compiling module 'EFX_LVDS_TX_V1' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(399): compiling module 'EFX_LVDS_RX_V2' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(426): compiling module 'EFX_LVDS_TX_V2' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v(446): compiling module 'EFX_LVDS_BIDIR_V2' [VERI-1018]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml"
+INFO     : ***** Beginning Analysis ... *****
+INFO     : default VHDL library search path is now "C:/Efinity/2025.1/sim_models/vhdl/packages/vhdl_2008" [VHDL-1504]
+INFO     : Analyzing Verilog file 'C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:/Efinity/2025.1/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\RX_FIFO.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v' [VERI-1482]
+INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v' [VERI-1482]
+INFO     : Analysis took 0.0094416 seconds.
+INFO     : 	Analysis took 0.015625 seconds (approximately) in total CPU time.
+INFO     : Analysis virtual memory usage: begin = 53.62 MB, end = 53.64 MB, delta = 0.02 MB
+INFO     : 	Analysis peak virtual memory usage = 53.64 MB
+INFO     : Analysis resident set memory usage: begin = 58.044 MB, end = 59.436 MB, delta = 1.392 MB
+INFO     : 	Analysis peak resident set memory usage = 59.436 MB
+INFO     : ***** Ending Analysis ... *****
+INFO     : ***** Beginning Elaboration ... *****
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v(4): compiling module 'PWM_IO_Expander' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v(3): compiling module 'Main' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v(1): compiling module 'SPI_Slave' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v(1): compiling module 'RX_SPI_Shift_Register' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v(32): compiling module 'TX_SPI_Shift_Register' [VERI-1018]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v(63): expression size 5 truncated to fit in target size 4 [VERI-1209]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v(1): compiling module 'SCLK_Counter' [VERI-1018]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v(34): expression size 5 truncated to fit in target size 4 [VERI-1209]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v(1): compiling module 'AddressPointer' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v(10): compiling module 'PWMRegister' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=0)' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v(1): compiling module 'N_Bit_Register' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(33): compiling module 'ReadBusMultiplexer' [VERI-1018]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(37): expression size 32 truncated to fit in target size 1 [VERI-1209]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=1)' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=2)' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=3)' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=4)' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=5)' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v(2): compiling module 'Timer' [VERI-1018]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v(26): expression size 17 truncated to fit in target size 16 [VERI-1209]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v(33): expression size 17 truncated to fit in target size 16 [VERI-1209]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v(6): net '_Write' does not have a driver [VDB-1002]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v(9): net 'SPITXInput[7]' does not have a driver [VDB-1002]
+INFO     : Elaboration took 0.0048258 seconds.
+INFO     : 	Elaboration took 0 seconds (approximately) in total CPU time.
+INFO     : Elaboration virtual memory usage: begin = 53.64 MB, end = 54.672 MB, delta = 1.032 MB
+INFO     : 	Elaboration peak virtual memory usage = 54.672 MB
+INFO     : Elaboration resident set memory usage: begin = 59.456 MB, end = 61.228 MB, delta = 1.772 MB
+INFO     : 	Elaboration peak resident set memory usage = 61.228 MB
+INFO     : ***** Ending Elaboration ... *****
+INFO     : ... Setting Synthesis Option: mode=speed
+INFO     : ***** Beginning Reading Mapping Library ... *****
+INFO     : Analyzing Verilog file 'C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v' [VERI-1482]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(8): compiling module 'EFX_ADD' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(21): compiling module 'EFX_FF' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(38): compiling module 'EFX_COMB4' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(48): compiling module 'EFX_GBUFCE' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(57): compiling module 'EFX_LUT4' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(65): compiling module 'EFX_MULT' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(100): compiling module 'EFX_DSP48' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(156): compiling module 'EFX_DSP24' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(209): compiling module 'EFX_DSP12' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(262): compiling module 'EFX_RAM_4K' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(322): compiling module 'EFX_RAM_5K' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(394): compiling module 'EFX_DPRAM_5K' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(499): compiling module 'RAMB5' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(561): compiling module 'EFX_RAM_10K' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(653): compiling module 'EFX_RAM10' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(754): compiling module 'EFX_DPRAM10' [VERI-1018]
+INFO     : C:/Efinity/2025.1/sim_models/maplib/efinix_maplib.v(884): compiling module 'EFX_SRL8' [VERI-1018]
+INFO     : Reading Mapping Library took 0.0044757 seconds.
+INFO     : 	Reading Mapping Library took 0 seconds (approximately) in total CPU time.
+INFO     : Reading Mapping Library virtual memory usage: begin = 55.7 MB, end = 55.7 MB, delta = 0 MB
+INFO     : 	Reading Mapping Library peak virtual memory usage = 55.7 MB
+INFO     : Reading Mapping Library resident set memory usage: begin = 62.632 MB, end = 62.64 MB, delta = 0.008 MB
+INFO     : 	Reading Mapping Library peak resident set memory usage = 62.64 MB
+INFO     : ***** Ending Reading Mapping Library ... *****
+INFO     : ... Pre-synthesis checks begin
+WARNING  : Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10) [EFX-0200]
+WARNING  : Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10) [EFX-0200]
+WARNING  : Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10) [EFX-0200]
+WARNING  : Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10) [EFX-0200]
+WARNING  : Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:42) [EFX-0200]
+WARNING  : Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:42) [EFX-0200]
+WARNING  : Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:42) [EFX-0200]
+WARNING  : Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:42) [EFX-0200]
+INFO     : Module Instance 'spislave' input pin '_RST' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'AddressPtr' input pin '_RST' is tied to constant (=1). [EFX-0266]
+INFO     : Module Instance 'AddressPtr' input pin 'NewAddress[0]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'AddressPtr' input pin 'NewAddress[1]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'AddressPtr' input pin 'NewAddress[2]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'AddressPtr' input pin 'NewAddress[3]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'AddressPtr' input pin 'NewAddress[4]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'AddressPtr' input pin 'NewAddress[5]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'AddressPtr' input pin 'NewAddress[6]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'AddressPtr' input pin 'NewAddress[7]' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'FirstRegister' input pin '_HOLD' is tied to constant (=0). [EFX-0266]
+INFO     : Module Instance 'FirstRegister' input pin '_RST' is tied to constant (=1). [EFX-0266]
+WARNING  : Removing redundant signal : PWMOutputs[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:3) [EFX-0200]
+WARNING  : Removing redundant signal : PWMOutputs[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:3) [EFX-0200]
+WARNING  : Removing redundant signal : PWMOutputs[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:3) [EFX-0200]
+WARNING  : Re-wiring to GND non-driven net '_Write'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:6) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'SPITXInput[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:9) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'SPITXInput[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:9) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'SPITXInput[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:9) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'SPITXInput[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:9) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'SPITXInput[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:9) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'SPITXInput[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:9) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'SPITXInput[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:9) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'SPITXInput[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:9) [EFX-0201]
+WARNING  : Removing redundant signal : NewAddress[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:12) [EFX-0200]
+WARNING  : Removing redundant signal : NewAddress[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:12) [EFX-0200]
+WARNING  : Removing redundant signal : NewAddress[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:12) [EFX-0200]
+WARNING  : Removing redundant signal : NewAddress[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:12) [EFX-0200]
+WARNING  : Removing redundant signal : NewAddress[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:12) [EFX-0200]
+WARNING  : Removing redundant signal : NewAddress[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:12) [EFX-0200]
+WARNING  : Removing redundant signal : NewAddress[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:12) [EFX-0200]
+WARNING  : Removing redundant signal : NewAddress[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:12) [EFX-0200]
+INFO     : ... Pre-synthesis checks end (Real time : 0s)
+INFO     : ... NameSpace init begin
+INFO     : ... NameSpace init end (Real time : 0s)
+INFO     : ... Mapping design "PWM_IO_Expander"
+INFO     : ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" begin
+INFO     : ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "TX_SPI_Shift_Register" begin
+INFO     : ... Hierarchical pre-synthesis "TX_SPI_Shift_Register" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "SCLK_Counter" begin
+INFO     : ... Hierarchical pre-synthesis "SCLK_Counter" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "SPI_Slave" begin
+INFO     : ... Hierarchical pre-synthesis "SPI_Slave" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "AddressPointer" begin
+INFO     : ... Hierarchical pre-synthesis "AddressPointer" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "N_Bit_Register" begin
+INFO     : ... Hierarchical pre-synthesis "N_Bit_Register" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "ReadBusMultiplexer" begin
+INFO     : ... Hierarchical pre-synthesis "ReadBusMultiplexer" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" begin
+INFO     : ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" begin
+INFO     : ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" begin
+INFO     : ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" begin
+INFO     : ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" begin
+INFO     : ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" begin
+INFO     : ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "Timer" begin
+INFO     : ... Hierarchical pre-synthesis "Timer" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "PWMRegister" begin
+INFO     : ... Hierarchical pre-synthesis "PWMRegister" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "Main" begin
+INFO     : ... Hierarchical pre-synthesis "Main" end (Real time : 0s)
+INFO     : ... Hierarchical pre-synthesis "PWM_IO_Expander" begin
+INFO     : ... Clock Enable Synthesis Performed on 28 flops.
+INFO     : ... Hierarchical pre-synthesis "PWM_IO_Expander" end (Real time : 0s)
+WARNING  : Re-wiring to GND non-driven net 'PWMOutputs[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:14) [EFX-0201]
+WARNING  : (The above message was generated too many times, subsequent similar messages will be muted.) [EFX-0201]
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 0s)
+INFO     : ... Flat synthesis begin
+INFO     : ... Flat synthesis end (Real time : 0s)
+INFO     : ... Flat optimizations begin
+INFO     : ... Flat optimizations end (Real time : 0s)
+INFO     : ... Check and break combinational loops begin
+INFO     : ... Check and break combinational loops end (Real time : 0s)
+INFO     : ... Setup for logic synthesis begin
+INFO     : ... Setup for logic synthesis end (Real time : 0s)
+INFO     : ... LUT mapping begin
+INFO     : ... LS, strategy: 3, nd: 0, ed: 0, lv: 1, pw: 23.43
+INFO     : ... LUT mapping end (Real time : 0s)
+INFO     : ... Post-synthesis Verific netlist creation begin
+INFO     : ... Post-synthesis Verific netlist creation end (Real time : 0s)
+WARNING  : 'syn_preserve' or 'syn_keep' attribute on net 'MainCLK_2' is transferred to primary I/O net 'MainCLK~MainCLK'. [EFX-0687]
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v(5): Input/inout port MainCLK is unconnected and will be removed. [VDB-8003]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v(6): Input/inout port CS is unconnected and will be removed. [VDB-8003]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v(7): Input/inout port SCLK is unconnected and will be removed. [VDB-8003]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v(8): Input/inout port MOSI is unconnected and will be removed. [VDB-8003]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v(9): Input/inout port RST is unconnected and will be removed. [VDB-8003]
+ERROR    : Post-synthesis netlist has only vcc and gnd nets because all logic is eliminated. Legal, but will cause router to crash. [VDB-9009]
+WARNING  : Found 5 warnings in the post-synthesis netlist.
+ERROR    : Found 1 errors in the post-synthesis netlist.
+INFO     : VDB Netlist Checker took 0.0002571 seconds.
+INFO     : 	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 94.3 MB, end = 94.384 MB, delta = 0.084 MB
+INFO     : 	VDB Netlist Checker peak virtual memory usage = 94.392 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 105.456 MB, end = 105.596 MB, delta = 0.14 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 105.596 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Resource Summary 
+INFO     : =============================== 
+INFO     : EFX_IBUF        : 	5
+INFO     : EFX_OBUF        : 	5
+INFO     : =============================== 
+INFO     : ... Post-Map Verilog Writer begin
+INFO     : Writing netlist 'PWM_IO_Expander' to Verilog file 'C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.map.core.v' [VDB-1030]
+INFO     : ... Post-Map Verilog Writer end (Real time : 0s)
+INFO     : The entire flow of EFX_MAP took 0.403508 seconds.
+INFO     : 	The entire flow of EFX_MAP took 0.4375 seconds (approximately) in total CPU time.
+INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 18.028 MB, end = 94.384 MB, delta = 76.356 MB
+INFO     : 	The entire flow of EFX_MAP peak virtual memory usage = 94.392 MB
+INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 17.304 MB, end = 106.596 MB, delta = 89.292 MB
+INFO     : 	The entire flow of EFX_MAP peak resident set memory usage = 106.596 MB

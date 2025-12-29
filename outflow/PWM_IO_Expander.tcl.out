@@ -1,45 +1,470 @@
-DEBUG    : Initialising Efx::ConcurrencyControl with 20 threads [Debug]
-INFO     : --max_threads set to 20 
-INFO     : ***** Beginning Analysis ... *****
-INFO     : Analysis took 0.0086307 seconds.
-INFO     : 	Analysis took 0 seconds (approximately) in total CPU time.
-INFO     : Analysis virtual memory usage: begin = 309.824 MB, end = 310.024 MB, delta = 0.2 MB
-INFO     : 	Analysis peak virtual memory usage = 315.98 MB
-INFO     : Analysis resident set memory usage: begin = 406.388 MB, end = 406.588 MB, delta = 0.2 MB
-INFO     : 	Analysis peak resident set memory usage = 412.372 MB
-INFO     : ***** Ending Analysis ... *****
-INFO     : ***** Beginning Elaboration ... *****
-INFO     : Elaboration took 0.0041877 seconds.
-INFO     : 	Elaboration took 0 seconds (approximately) in total CPU time.
-INFO     : Elaboration virtual memory usage: begin = 310.024 MB, end = 310.096 MB, delta = 0.072 MB
-INFO     : 	Elaboration peak virtual memory usage = 315.98 MB
-INFO     : Elaboration resident set memory usage: begin = 406.588 MB, end = 406.66 MB, delta = 0.072 MB
-INFO     : 	Elaboration peak resident set memory usage = 412.372 MB
-INFO     : ***** Ending Elaboration ... *****
-INFO     : --max_threads set to 20 
-INFO     : ***** Beginning Analysis ... *****
-INFO     : Analysis took 0.0086309 seconds.
-INFO     : 	Analysis took 0 seconds (approximately) in total CPU time.
-INFO     : Analysis virtual memory usage: begin = 224.712 MB, end = 224.784 MB, delta = 0.072 MB
-INFO     : 	Analysis peak virtual memory usage = 318.936 MB
-INFO     : Analysis resident set memory usage: begin = 321.76 MB, end = 321.936 MB, delta = 0.176 MB
-INFO     : 	Analysis peak resident set memory usage = 416.856 MB
-INFO     : ***** Ending Analysis ... *****
-INFO     : ***** Beginning Elaboration ... *****
-INFO     : Elaboration took 0.0041218 seconds.
-INFO     : 	Elaboration took 0 seconds (approximately) in total CPU time.
-INFO     : Elaboration virtual memory usage: begin = 224.784 MB, end = 224.784 MB, delta = 0 MB
-INFO     : 	Elaboration peak virtual memory usage = 318.936 MB
-INFO     : Elaboration resident set memory usage: begin = 321.936 MB, end = 322.056 MB, delta = 0.12 MB
-INFO     : 	Elaboration peak resident set memory usage = 416.856 MB
-INFO     : ***** Ending Elaboration ... *****
-INFO     : --max_threads set to 20 
-INFO     : --max_threads set to 20 
-INFO     : --max_threads set to 20 
-INFO     : --max_threads set to 20 
-INFO     : --max_threads set to 20 
-INFO     : --max_threads set to 20 
-INFO     : --max_threads set to 20 
-INFO     : --max_threads set to 20 
-INFO     : --max_threads set to 20 
-INFO     : Deleting any pre-existing troute trace files
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0010843 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 241.304 MB, end = 241.636 MB, delta = 0.332 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 241.644 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 297.412 MB, end = 297.94 MB, delta = 0.528 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 297.94 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Found 0 constant generator nets [DBMsg::NetlistConstGeneratorCount]
+INFO     : Pass 0: Swept away 0 nets with no fanout [DBMsg::NetlistNetsSweptThisPass]
+INFO     : Pass 0: Swept away 0 blocks with no fanout [DBMsg::NetlistBlocksSweptThisPass]
+INFO     : Swept away 0 nets and 0 blocks in total [DBMsg::NetlistTotalSwept]
+INFO     : Removed 0 LUT buffers [DBMsg::NetlistRemovedLUTBuffers]
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : Netlist pre-processing took 0.0055028 seconds [FlowMsg::StageDuration]
+INFO     :     Netlist pre-processing took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Netlist pre-processing virtual memory usage: begin = 240.968 MB, end = 241.68 MB, delta = 0.712 MB [FlowMsg::VMUsage]
+INFO     :     Netlist pre-processing peak virtual memory usage = 241.688 MB [FlowMsg::VMUsage::Peak]
+INFO     : Netlist pre-processing resident set memory usage: begin = 296.76 MB, end = 298.412 MB, delta = 1.652 MB [FlowMsg::RSSUsage]
+INFO     :     Netlist pre-processing peak resident set memory usage = 298.412 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto
+INFO     : Read proto netlist for file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto" took 0.001 seconds
+INFO     : Setup net and block data structure took 0.004 seconds
+INFO     : Run checks after load placement [DBMsg::DatabasePlacementChecks]
+INFO     : Successfully loaded placement data from "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.place".
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0005232 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 251.992 MB, end = 252.296 MB, delta = 0.304 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 252.296 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 316.816 MB, end = 317.008 MB, delta = 0.192 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 317.008 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Found 0 constant generator nets [DBMsg::NetlistConstGeneratorCount]
+INFO     : Pass 0: Swept away 0 nets with no fanout [DBMsg::NetlistNetsSweptThisPass]
+INFO     : Pass 0: Swept away 0 blocks with no fanout [DBMsg::NetlistBlocksSweptThisPass]
+INFO     : Swept away 0 nets and 0 blocks in total [DBMsg::NetlistTotalSwept]
+INFO     : Removed 0 LUT buffers [DBMsg::NetlistRemovedLUTBuffers]
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : Netlist pre-processing took 0.0048935 seconds [FlowMsg::StageDuration]
+INFO     :     Netlist pre-processing took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Netlist pre-processing virtual memory usage: begin = 251.816 MB, end = 252.624 MB, delta = 0.808 MB [FlowMsg::VMUsage]
+INFO     :     Netlist pre-processing peak virtual memory usage = 252.624 MB [FlowMsg::VMUsage::Peak]
+INFO     : Netlist pre-processing resident set memory usage: begin = 316.64 MB, end = 317.336 MB, delta = 0.696 MB [FlowMsg::RSSUsage]
+INFO     :     Netlist pre-processing peak resident set memory usage = 317.336 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto
+INFO     : Read proto netlist for file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto" took 0.001 seconds
+INFO     : Setup net and block data structure took 0.004 seconds
+INFO     : Run checks after load placement [DBMsg::DatabasePlacementChecks]
+INFO     : Successfully loaded placement data from "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.place".
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0006493 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 255.408 MB, end = 255.612 MB, delta = 0.204 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 255.62 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 321.252 MB, end = 321.4 MB, delta = 0.148 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 321.4 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Found 0 constant generator nets [DBMsg::NetlistConstGeneratorCount]
+INFO     : Pass 0: Swept away 0 nets with no fanout [DBMsg::NetlistNetsSweptThisPass]
+INFO     : Pass 0: Swept away 0 blocks with no fanout [DBMsg::NetlistBlocksSweptThisPass]
+INFO     : Swept away 0 nets and 0 blocks in total [DBMsg::NetlistTotalSwept]
+INFO     : Removed 0 LUT buffers [DBMsg::NetlistRemovedLUTBuffers]
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : Netlist pre-processing took 0.0046845 seconds [FlowMsg::StageDuration]
+INFO     :     Netlist pre-processing took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Netlist pre-processing virtual memory usage: begin = 255.288 MB, end = 255.896 MB, delta = 0.608 MB [FlowMsg::VMUsage]
+INFO     :     Netlist pre-processing peak virtual memory usage = 255.896 MB [FlowMsg::VMUsage::Peak]
+INFO     : Netlist pre-processing resident set memory usage: begin = 321.108 MB, end = 321.684 MB, delta = 0.576 MB [FlowMsg::RSSUsage]
+INFO     :     Netlist pre-processing peak resident set memory usage = 321.684 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto
+INFO     : Read proto netlist for file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto" took 0 seconds
+INFO     : Setup net and block data structure took 0.004 seconds
+INFO     : Run checks after load placement [DBMsg::DatabasePlacementChecks]
+INFO     : Successfully loaded placement data from "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.place".
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0004647 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 256.044 MB, end = 256.104 MB, delta = 0.06 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 256.232 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 321.588 MB, end = 321.632 MB, delta = 0.044 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 322.036 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Found 0 constant generator nets [DBMsg::NetlistConstGeneratorCount]
+INFO     : Pass 0: Swept away 0 nets with no fanout [DBMsg::NetlistNetsSweptThisPass]
+INFO     : Pass 0: Swept away 0 blocks with no fanout [DBMsg::NetlistBlocksSweptThisPass]
+INFO     : Swept away 0 nets and 0 blocks in total [DBMsg::NetlistTotalSwept]
+INFO     : Removed 0 LUT buffers [DBMsg::NetlistRemovedLUTBuffers]
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : Netlist pre-processing took 0.0046137 seconds [FlowMsg::StageDuration]
+INFO     :     Netlist pre-processing took 0.015625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Netlist pre-processing virtual memory usage: begin = 255.924 MB, end = 256.144 MB, delta = 0.22 MB [FlowMsg::VMUsage]
+INFO     :     Netlist pre-processing peak virtual memory usage = 256.232 MB [FlowMsg::VMUsage::Peak]
+INFO     : Netlist pre-processing resident set memory usage: begin = 321.432 MB, end = 321.668 MB, delta = 0.236 MB [FlowMsg::RSSUsage]
+INFO     :     Netlist pre-processing peak resident set memory usage = 322.036 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto
+INFO     : Read proto netlist for file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto" took 0.001 seconds
+INFO     : Setup net and block data structure took 0.004 seconds
+INFO     : Run checks after load placement [DBMsg::DatabasePlacementChecks]
+INFO     : Successfully loaded placement data from "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.place".
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0004086 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 256.332 MB, end = 256.332 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 258.368 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 321.624 MB, end = 321.624 MB, delta = 0 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 323.86 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Found 0 constant generator nets [DBMsg::NetlistConstGeneratorCount]
+INFO     : Pass 0: Swept away 0 nets with no fanout [DBMsg::NetlistNetsSweptThisPass]
+INFO     : Pass 0: Swept away 0 blocks with no fanout [DBMsg::NetlistBlocksSweptThisPass]
+INFO     : Swept away 0 nets and 0 blocks in total [DBMsg::NetlistTotalSwept]
+INFO     : Removed 0 LUT buffers [DBMsg::NetlistRemovedLUTBuffers]
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : Netlist pre-processing took 0.0049237 seconds [FlowMsg::StageDuration]
+INFO     :     Netlist pre-processing took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Netlist pre-processing virtual memory usage: begin = 256.196 MB, end = 256.444 MB, delta = 0.248 MB [FlowMsg::VMUsage]
+INFO     :     Netlist pre-processing peak virtual memory usage = 258.368 MB [FlowMsg::VMUsage::Peak]
+INFO     : Netlist pre-processing resident set memory usage: begin = 321.488 MB, end = 321.736 MB, delta = 0.248 MB [FlowMsg::RSSUsage]
+INFO     :     Netlist pre-processing peak resident set memory usage = 323.86 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto
+INFO     : Read proto netlist for file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto" took 0.001 seconds
+INFO     : Setup net and block data structure took 0.004 seconds
+INFO     : Run checks after load placement [DBMsg::DatabasePlacementChecks]
+INFO     : Successfully loaded placement data from "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.place".
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0004167 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 258.508 MB, end = 258.508 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 258.688 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 324.396 MB, end = 324.396 MB, delta = 0 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 324.396 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Found 0 constant generator nets [DBMsg::NetlistConstGeneratorCount]
+INFO     : Pass 0: Swept away 0 nets with no fanout [DBMsg::NetlistNetsSweptThisPass]
+INFO     : Pass 0: Swept away 0 blocks with no fanout [DBMsg::NetlistBlocksSweptThisPass]
+INFO     : Swept away 0 nets and 0 blocks in total [DBMsg::NetlistTotalSwept]
+INFO     : Removed 0 LUT buffers [DBMsg::NetlistRemovedLUTBuffers]
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : Netlist pre-processing took 0.0044346 seconds [FlowMsg::StageDuration]
+INFO     :     Netlist pre-processing took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Netlist pre-processing virtual memory usage: begin = 258.444 MB, end = 258.58 MB, delta = 0.136 MB [FlowMsg::VMUsage]
+INFO     :     Netlist pre-processing peak virtual memory usage = 258.688 MB [FlowMsg::VMUsage::Peak]
+INFO     : Netlist pre-processing resident set memory usage: begin = 324.308 MB, end = 324.468 MB, delta = 0.16 MB [FlowMsg::RSSUsage]
+INFO     :     Netlist pre-processing peak resident set memory usage = 324.468 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto
+INFO     : Read proto netlist for file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto" took 0.001 seconds
+INFO     : Setup net and block data structure took 0.003 seconds
+INFO     : Run checks after load placement [DBMsg::DatabasePlacementChecks]
+INFO     : Successfully loaded placement data from "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.place".
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0004611 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 260.432 MB, end = 260.432 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 260.432 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 326.544 MB, end = 326.544 MB, delta = 0 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 326.544 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Found 0 constant generator nets [DBMsg::NetlistConstGeneratorCount]
+INFO     : Pass 0: Swept away 0 nets with no fanout [DBMsg::NetlistNetsSweptThisPass]
+INFO     : Pass 0: Swept away 0 blocks with no fanout [DBMsg::NetlistBlocksSweptThisPass]
+INFO     : Swept away 0 nets and 0 blocks in total [DBMsg::NetlistTotalSwept]
+INFO     : Removed 0 LUT buffers [DBMsg::NetlistRemovedLUTBuffers]
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : Netlist pre-processing took 0.0045039 seconds [FlowMsg::StageDuration]
+INFO     :     Netlist pre-processing took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Netlist pre-processing virtual memory usage: begin = 260.352 MB, end = 260.536 MB, delta = 0.184 MB [FlowMsg::VMUsage]
+INFO     :     Netlist pre-processing peak virtual memory usage = 260.536 MB [FlowMsg::VMUsage::Peak]
+INFO     : Netlist pre-processing resident set memory usage: begin = 326.44 MB, end = 326.648 MB, delta = 0.208 MB [FlowMsg::RSSUsage]
+INFO     :     Netlist pre-processing peak resident set memory usage = 326.648 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto
+INFO     : Read proto netlist for file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto" took 0 seconds
+INFO     : Setup net and block data structure took 0.004 seconds
+INFO     : Run checks after load placement [DBMsg::DatabasePlacementChecks]
+INFO     : Successfully loaded placement data from "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.place".
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0006928 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 263.948 MB, end = 263.948 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 263.948 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 329.824 MB, end = 329.824 MB, delta = 0 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 329.824 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Found 0 constant generator nets [DBMsg::NetlistConstGeneratorCount]
+INFO     : Pass 0: Swept away 0 nets with no fanout [DBMsg::NetlistNetsSweptThisPass]
+INFO     : Pass 0: Swept away 0 blocks with no fanout [DBMsg::NetlistBlocksSweptThisPass]
+INFO     : Swept away 0 nets and 0 blocks in total [DBMsg::NetlistTotalSwept]
+INFO     : Removed 0 LUT buffers [DBMsg::NetlistRemovedLUTBuffers]
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : Netlist pre-processing took 0.0046474 seconds [FlowMsg::StageDuration]
+INFO     :     Netlist pre-processing took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Netlist pre-processing virtual memory usage: begin = 263.836 MB, end = 264.036 MB, delta = 0.2 MB [FlowMsg::VMUsage]
+INFO     :     Netlist pre-processing peak virtual memory usage = 264.036 MB [FlowMsg::VMUsage::Peak]
+INFO     : Netlist pre-processing resident set memory usage: begin = 329.68 MB, end = 329.916 MB, delta = 0.236 MB [FlowMsg::RSSUsage]
+INFO     :     Netlist pre-processing peak resident set memory usage = 329.916 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto
+INFO     : Read proto netlist for file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto" took 0.001 seconds
+INFO     : Setup net and block data structure took 0.004 seconds
+INFO     : Run checks after load placement [DBMsg::DatabasePlacementChecks]
+INFO     : Successfully loaded placement data from "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.place".
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0004628 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 264.46 MB, end = 264.46 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 265.172 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 330.084 MB, end = 330.084 MB, delta = 0 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 330.588 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Found 0 constant generator nets [DBMsg::NetlistConstGeneratorCount]
+INFO     : Pass 0: Swept away 0 nets with no fanout [DBMsg::NetlistNetsSweptThisPass]
+INFO     : Pass 0: Swept away 0 blocks with no fanout [DBMsg::NetlistBlocksSweptThisPass]
+INFO     : Swept away 0 nets and 0 blocks in total [DBMsg::NetlistTotalSwept]
+INFO     : Removed 0 LUT buffers [DBMsg::NetlistRemovedLUTBuffers]
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : Netlist pre-processing took 0.0043122 seconds [FlowMsg::StageDuration]
+INFO     :     Netlist pre-processing took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Netlist pre-processing virtual memory usage: begin = 264.38 MB, end = 264.46 MB, delta = 0.08 MB [FlowMsg::VMUsage]
+INFO     :     Netlist pre-processing peak virtual memory usage = 265.172 MB [FlowMsg::VMUsage::Peak]
+INFO     : Netlist pre-processing resident set memory usage: begin = 330.004 MB, end = 330.084 MB, delta = 0.08 MB [FlowMsg::RSSUsage]
+INFO     :     Netlist pre-processing peak resident set memory usage = 330.588 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto
+INFO     : Read proto netlist for file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto" took 0.001 seconds
+INFO     : Setup net and block data structure took 0.004 seconds
+INFO     : Run checks after load placement [DBMsg::DatabasePlacementChecks]
+INFO     : Successfully loaded placement data from "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.place".
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0004389 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 281.348 MB, end = 281.348 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 281.348 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 346.628 MB, end = 346.628 MB, delta = 0 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 346.628 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Found 0 constant generator nets [DBMsg::NetlistConstGeneratorCount]
+INFO     : Pass 0: Swept away 0 nets with no fanout [DBMsg::NetlistNetsSweptThisPass]
+INFO     : Pass 0: Swept away 0 blocks with no fanout [DBMsg::NetlistBlocksSweptThisPass]
+INFO     : Swept away 0 nets and 0 blocks in total [DBMsg::NetlistTotalSwept]
+INFO     : Removed 0 LUT buffers [DBMsg::NetlistRemovedLUTBuffers]
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : Netlist pre-processing took 0.0045795 seconds [FlowMsg::StageDuration]
+INFO     :     Netlist pre-processing took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Netlist pre-processing virtual memory usage: begin = 281.252 MB, end = 281.46 MB, delta = 0.208 MB [FlowMsg::VMUsage]
+INFO     :     Netlist pre-processing peak virtual memory usage = 281.46 MB [FlowMsg::VMUsage::Peak]
+INFO     : Netlist pre-processing resident set memory usage: begin = 346.5 MB, end = 346.74 MB, delta = 0.24 MB [FlowMsg::RSSUsage]
+INFO     :     Netlist pre-processing peak resident set memory usage = 346.74 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto
+INFO     : Read proto netlist for file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto" took 0 seconds
+INFO     : Setup net and block data structure took 0.004 seconds
+INFO     : Run checks after load placement [DBMsg::DatabasePlacementChecks]
+INFO     : Successfully loaded placement data from "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.place".
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Deleting any pre-existing troute trace files [DBMsg::DatabaseRoutingEraseTrouteTrace]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.0004181 seconds [FlowMsg::StageDuration]
+INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 281.512 MB, end = 281.516 MB, delta = 0.004 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 282.028 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 346.4 MB, end = 346.404 MB, delta = 0.004 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 347.292 MB [FlowMsg::RSSUsage::Peak]
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Found 0 constant generator nets [DBMsg::NetlistConstGeneratorCount]
+INFO     : Pass 0: Swept away 0 nets with no fanout [DBMsg::NetlistNetsSweptThisPass]
+INFO     : Pass 0: Swept away 0 blocks with no fanout [DBMsg::NetlistBlocksSweptThisPass]
+INFO     : Swept away 0 nets and 0 blocks in total [DBMsg::NetlistTotalSwept]
+INFO     : Removed 0 LUT buffers [DBMsg::NetlistRemovedLUTBuffers]
+INFO     : Successfully read in VDB netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.vdb [DBMsg::VdbFileRead]
+INFO     : Netlist pre-processing took 0.0046061 seconds [FlowMsg::StageDuration]
+INFO     :     Netlist pre-processing took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Netlist pre-processing virtual memory usage: begin = 281.408 MB, end = 281.62 MB, delta = 0.212 MB [FlowMsg::VMUsage]
+INFO     :     Netlist pre-processing peak virtual memory usage = 282.028 MB [FlowMsg::VMUsage::Peak]
+INFO     : Netlist pre-processing resident set memory usage: begin = 346.276 MB, end = 346.508 MB, delta = 0.232 MB [FlowMsg::RSSUsage]
+INFO     :     Netlist pre-processing peak resident set memory usage = 347.292 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto
+INFO     : Read proto netlist for file "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/work_pnr\PWM_IO_Expander.net_proto" took 0.001 seconds
+INFO     : Setup net and block data structure took 0.003 seconds
+INFO     : Run checks after load placement [DBMsg::DatabasePlacementChecks]
+INFO     : Successfully loaded placement data from "C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.place".
+INFO     : Reading project database "C:\Users\Timothy Marchant\.efinity\project/PWM_IO_Expander/PWM_IO_Expander.xml" [FlowMsg::ProjectDatabaseReading]
+INFO     : Maximum concurrency has been set to 20 [FlowMsg::MaxThreads]

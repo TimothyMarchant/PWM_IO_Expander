@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<efx:project name="PWM_IO_Expander" description="" last_change="1767025608" sw_version="2025.1.110" last_run_state="fail" last_run_flow="syn" config_result_in_sync="true" design_ood="" place_ood="" route_ood="change" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
+<efx:project name="PWM_IO_Expander" description="" last_change="1767035931" sw_version="2025.2.288.2.10" last_run_state="pass" last_run_flow="bitstream" config_result_in_sync="true" design_ood="change" place_ood="sync" route_ood="sync" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
     <efx:device_info>
         <efx:family name="Trion"/>
         <efx:device name="T8F81"/>
         <efx:timing_model name="C2"/>
     </efx:device_info>
-    <efx:design_info def_veri_version="verilog_2k" def_vhdl_version="vhdl_2008" unified_flow="true">
+    <efx:design_info def_veri_version="verilog_2k" def_vhdl_version="vhdl_2008" unified_flow="false">
         <efx:top_module name="PWM_IO_Expander"/>
         <efx:design_file name="Main.v" version="default" library="default"/>
         <efx:design_file name="PWM_IO_Expander.v" version="default" library="default"/>
@@ -24,8 +24,13 @@
         <efx:sdc_file name="Clock_Constraints.sdc"/>
         <efx:inter_file name=""/>
     </efx:constraint_info>
-    <efx:sim_info/>
+    <efx:sim_info>
+        <efx:sim_file name="Main_tb.v"/>
+        <efx:sim_file name="Timer_tb.v"/>
+        <efx:sim_file name="PWM_Register_tb.v"/>
+    </efx:sim_info>
     <efx:misc_info/>
+    <efx:ooc_info/>
     <efx:ip_info/>
     <efx:synthesis tool_name="efx_map">
         <efx:param name="work_dir" value="work_syn" value_type="e_string"/>
@@ -53,28 +58,30 @@
         <efx:param name="operator-sharing" value="0" value_type="e_option"/>
         <efx:param name="optimize-adder-tree" value="0" value_type="e_option"/>
         <efx:param name="optimize-zero-init-rom" value="1" value_type="e_option"/>
-        <efx:param name="peri-syn-instantiation" value="1" value_type="e_option"/>
-        <efx:param name="peri-syn-inference" value="1" value_type="e_option"/>
+        <efx:param name="peri-syn-instantiation" value="0" value_type="e_option"/>
+        <efx:param name="peri-syn-inference" value="0" value_type="e_option"/>
         <efx:param name="ram-decomp-mode" value="0" value_type="e_option"/>
-        <efx:param name="retiming" value="0" value_type="e_option"/>
-        <efx:param name="seq_opt" value="0" value_type="e_option"/>
+        <efx:param name="retiming" value="1" value_type="e_option"/>
+        <efx:param name="seq_opt" value="1" value_type="e_option"/>
         <efx:param name="seq-opt-sync-only" value="0" value_type="e_option"/>
         <efx:param name="use-logic-for-small-mem" value="64" value_type="e_integer"/>
         <efx:param name="use-logic-for-small-rom" value="64" value_type="e_integer"/>
         <efx:param name="max_threads" value="-1" value_type="e_integer"/>
         <efx:param name="mult_input_regs_packing" value="1" value_type="e_option"/>
         <efx:param name="mult_output_regs_packing" value="1" value_type="e_option"/>
+        <efx:param name="suppress_info_msgs" value="off" value_type="e_bool"/>
+        <efx:param name="suppress_warning_msgs" value="off" value_type="e_bool"/>
     </efx:synthesis>
     <efx:place_and_route tool_name="efx_pnr">
         <efx:param name="work_dir" value="work_pnr" value_type="e_string"/>
         <efx:param name="verbose" value="off" value_type="e_bool"/>
-        <efx:param name="load_delaym" value="on" value_type="e_bool"/>
-        <efx:param name="optimization_level" value="NULL" value_type="e_option"/>
         <efx:param name="seed" value="1" value_type="e_integer"/>
         <efx:param name="placer_effort_level" value="2" value_type="e_option"/>
         <efx:param name="max_threads" value="-1" value_type="e_integer"/>
         <efx:param name="print_critical_path" value="10" value_type="e_integer"/>
         <efx:param name="classic_flow" value="off" value_type="e_noarg"/>
+        <efx:param name="suppress_info_msgs" value="off" value_type="e_bool"/>
+        <efx:param name="suppress_warning_msgs" value="off" value_type="e_bool"/>
     </efx:place_and_route>
     <efx:bitstream_generation tool_name="efx_pgm">
         <efx:param name="mode" value="active" value_type="e_option"/>

@@ -58,20 +58,20 @@ port (
 	GPIOL_05_CDI5                 : linkage bit;
 	GPIOL_06_CDI1                 : linkage bit;
 	GPIOL_07_CDI6                 : linkage bit;
-	GPIOL_09_CDI2                 : linkage bit;
-	GPIOL_10_CDI7                 : in bit;
+	GPIOL_09_CDI2                 : in bit;
+	GPIOL_10_CDI7                 : out bit;
 	GPIOL_11_CDI3                 : in bit;
 	GPIOL_12_CTRL0                : linkage bit;
 	GPIOL_13_CTRL1                : linkage bit;
-	GPIOL_14_CLK0                 : linkage bit;
+	GPIOL_14_CLK0                 : in bit;
 	GPIOL_15_CLK1                 : linkage bit;
-	GPIOL_16_CLK2                 : in bit;
+	GPIOL_16_CLK2                 : linkage bit;
 	GPIOL_17_CLK3                 : linkage bit;
 	GPIOL_18_CTRL2                : linkage bit;
 	GPIOL_19_CTRL3                : linkage bit;
 	GPIOL_20_PLLIN                : in bit;
 	GPIOL_21_NSTATUS              : linkage bit;
-	GPIOR_00                      : out bit;
+	GPIOR_00                      : linkage bit;
 	GPIOR_01                      : linkage bit;
 	GPIOR_02_RESERVED_OUT         : out bit;
 	GPIOR_03                      : linkage bit;
@@ -438,8 +438,8 @@ attribute BOUNDARY_REGISTER of T8F81 : entity is
 	"116 (BC_1, *, internal, X)," &
 
 	"117 (BC_1, *, internal, X)," &
-	"118 (BC_1, *, control, 1)," &
-	"119 (BC_1, GPIOR_00, output3, X, 118, 1, Z)," &
+	"118 (BC_1, *, internal, 1)," &
+	"119 (BC_1, *, internal, X)," &
 
 	"120 (BC_1, *, internal, X)," &
 	"121 (BC_1, *, internal, 1)," &
@@ -477,7 +477,7 @@ attribute BOUNDARY_REGISTER of T8F81 : entity is
 	"145 (BC_1, *, internal, 1)," &
 	"146 (BC_1, *, internal, X)," &
 
-	"147 (BC_1, GPIOL_16_CLK2, input, X)," &
+	"147 (BC_1, *, internal, X)," &
 	"148 (BC_1, *, internal, 1)," &
 	"149 (BC_1, *, internal, X)," &
 
@@ -485,7 +485,7 @@ attribute BOUNDARY_REGISTER of T8F81 : entity is
 	"151 (BC_1, *, internal, 1)," &
 	"152 (BC_1, *, internal, X)," &
 
-	"153 (BC_1, *, internal, X)," &
+	"153 (BC_1, GPIOL_14_CLK0, input, X)," &
 	"154 (BC_1, *, internal, 1)," &
 	"155 (BC_1, *, internal, X)," &
 
@@ -501,11 +501,11 @@ attribute BOUNDARY_REGISTER of T8F81 : entity is
 	"163 (BC_1, *, internal, 1)," &
 	"164 (BC_1, *, internal, X)," &
 
-	"165 (BC_1, GPIOL_10_CDI7, input, X)," &
-	"166 (BC_1, *, internal, 1)," &
-	"167 (BC_1, *, internal, X)," &
+	"165 (BC_1, *, internal, X)," &
+	"166 (BC_1, *, control, 1)," &
+	"167 (BC_1, GPIOL_10_CDI7, output3, X, 166, 1, Z)," &
 
-	"168 (BC_1, *, internal, X)," &
+	"168 (BC_1, GPIOL_09_CDI2, input, X)," &
 	"169 (BC_1, *, internal, 1)," &
 	"170 (BC_1, *, internal, X)," &
 

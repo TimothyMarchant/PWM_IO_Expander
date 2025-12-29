@@ -14,7 +14,7 @@ always @(posedge CLK or negedge _RST) begin
     if (_RST==0) begin 
         Registers<=0;
     end
-    else if (_HOLD==1) begin
+    else if (_HOLD==0) begin
         Registers<=DataIn;
     end
     

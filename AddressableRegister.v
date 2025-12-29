@@ -1,4 +1,4 @@
-module AddressableRegister # (parameter AddressWidth=8,parameter [AddressWidth-1:0] AddressValue='h00, parameter BitWidth=8) 
+module AddressableRegister # (parameter AddressWidth=8,parameter [AddressWidth-1:0] AddressValue='h00, parameter BitWidth=8, parameter WriteOnly=1) 
 (input CLK, input _HOLD, input _RST, input[AddressWidth-1:0] AddressBus, input[BitWidth-1:0] DataIn,output [BitWidth-1:0] DataOut);
     wire [AddressWidth-1:0] Address;
     wand Addressed;
@@ -24,9 +24,15 @@ module AddressableRegister # (parameter AddressWidth=8,parameter [AddressWidth-1
     assign CanReset=~(~_RST&Addressed);
     assign CanWrite=~(~_HOLD&Addressed);
 
-    N_Bit_Register #(.BitWidth(BitWidth)) Register(.CLK(CLK),._HOLD(CanWrite),._RST(CanReset),.DataIn(DataIn),.DataOut(ReadBus));
+    if (WriteOnly==0) begin
+        N_Bit_Register #(.BitWidth(BitWidth)) Register(.CLK(CLK),._HOLD(CanWrite),._RST(CanReset),.DataIn(DataIn),.DataOut(ReadBus));
+        ReadBusMultiplexer #(.Width(BitWidth)) Multiplexer (.ReadBus(ReadBus),.Addressed(Addressed),.Output(DataOut));
+    end
+    else begin
+        N_Bit_Register #(.BitWidth(BitWidth)) Register(.CLK(CLK),._HOLD(CanWrite),._RST(CanReset),.DataIn(DataIn),.DataOut(DataOut));
 
-    ReadBusMultiplexer #(.Width(BitWidth)) Multiplexer (.ReadBus(ReadBus),.Addressed(Addressed),.Output(DataOut));
+      //  assign DataOut=ReadBus;
+    end
 
 
 endmodule

@@ -10,6 +10,7 @@ assign TimerOut=TimerOutput;
 initial begin 
 counter<=0;
 prescalercounter<=0;
+TimerOutput<=0;
 end
 
 
@@ -17,22 +18,26 @@ always @ (posedge CLK or negedge _RST) begin
     if (_RST==0) begin
         counter<=0;
         prescalercounter<=0;
+        TimerOutput<=0;
     end
     else begin
         if (counter>=Count) begin
             counter<=0;
         end
-        if (prescalercounter>= Prescaler) begin
+        if (prescalercounter>= Prescaler+1) begin
             counter<=counter+1;
             prescalercounter<=0;
         end
-        else if (counter>= SwitchValue) begin
-            TimerOutput<=1;
-        end
         else begin
             prescalercounter<=prescalercounter+1;
-            TimerOutput<=0;
+            if (counter>= SwitchValue) begin
+                TimerOutput<=0;
+            end
+            else begin
+                TimerOutput<=1;
+            end
         end
+
     end
 end
 

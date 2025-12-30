@@ -133,3 +133,747 @@
 [EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
 [EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
 [EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 16:16:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 16:17:04
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:63)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:34)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' remains unconnected for this instance (VDB-1053) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:42)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:42)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:42)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:42)
+[EFX-0200 WARNING] Removing redundant signal : ReadBus[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:7)
+[EFX-0200 WARNING] Removing redundant signal : ReadBus[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:7)
+[EFX-0200 WARNING] Removing redundant signal : ReadBus[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:7)
+[EFX-0200 WARNING] Removing redundant signal : ReadBus[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:7)
+[EFX-0200 WARNING] Removing redundant signal : ReadBus[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:7)
+[EFX-0200 WARNING] Removing redundant signal : ReadBus[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:7)
+[EFX-0200 WARNING] Removing redundant signal : ReadBus[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:7)
+[EFX-0200 WARNING] Removing redundant signal : ReadBus[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:7)
+[EFX-0200 WARNING] Removing redundant signal : ReadBus[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:7)
+[EFX-0200 WARNING] Removing redundant signal : ReadBus[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:7)
+[EFX-0200 WARNING] Removing redundant signal : ReadBus[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:7)
+[EFX-0200 WARNING] Removing redundant signal : ReadBus[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:7)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:00:09
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:34)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:00:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:00:58
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:34)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:01:07
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:34)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:01:28
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:34)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:04:43
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:34)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:05:10
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:34)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:05:46
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:34)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:06:08
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:34)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:16:25
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:34)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:16:57
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:34)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:43)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:31:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:31:49
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:32)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:45:23
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'FirstAddress' remains unconnected for this instance (VERI-1927) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:52)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:45:37
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:16)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:34)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:34)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:34)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:34)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:34)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:34)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:34)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:34)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:34)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:10)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:53:05
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:16)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:40)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:40)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:40)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:40)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:40)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:40)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:40)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:40)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:40)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:15)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 19:43:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 19:43:35
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:23)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:16)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:15)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 23:57:19
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 2 truncated to fit in target size 1 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:23)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:16)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:43)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:15)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 00:31:31
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:16)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:49)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:49)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:49)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:49)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:49)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:49)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:49)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:49)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:49)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:15)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 00:40:12
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:16)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:15)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 00:44:31
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:16)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:53)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:15)

@@ -1,35 +1,56 @@
 
 //hardware indepedent design
-module Main #(parameter NumOfPWMOutputs=4) (input CLK, input _CS, input SCLK, input MOSI, output MISO, output [NumOfPWMOutputs-1:0] PWMOutputs);
+module Main #(parameter NumOfPWMOutputs=4) (input CLK, input _CS, input SCLK, input MOSI, output MISO, input _RST, output [NumOfPWMOutputs-1:0] PWMOutputs);
 //declarations
     wire TransferComplete;
     wire _Write;
-    reg FirstByteReceived;
+    wire AddressWrite; //active HIGH.
+    reg[1:0] FirstByteReceived;
+    reg TransferCompleteDelayReg;
     wire [7:0] SPIRXOutput;
    // wire [7:0] SPITXInput;
     wire [7:0] AddressBus;
     wire [7:0] WriteBus;
-    wire [7:0] NewAddress;
-
+    wire [7:0] FirstAddress;
+    wire FirstByteReceivedOut;
 
     supply0 [7:0] PullDowns;
 //assignments
-assign WriteBus = _Write ? PullDowns : SPIRXOutput;
-assign NewAddress = FirstByteReceived ? PullDowns : SPIRXOutput;
-assign _Write= ~(TransferComplete&FirstByteReceived);
-//module instatnations.
-
-    always @ (posedge SCLK) begin
-        if (TransferComplete==1) begin
-            FirstByteReceived<=1; //set after receiving a byte.  Doesn't matter after the first byte.
-        end
-        else if (_CS==0) begin //beginning transfer.  
+assign WriteBus = SPIRXOutput;
+assign FirstAddress = SPIRXOutput;
+assign AddressWrite= FirstByteReceived[1] ? TransferCompleteDelayReg : TransferComplete; //essentially delay address writing after the first byte has been received.
+assign _Write = ~(TransferComplete&FirstByteReceived[1]);
+assign FirstByteReceivedOut = FirstByteReceived[0]|FirstByteReceived[1];
+//meant for determining where to send data.  The first byte is an address.  The nth byte is data for a register.
+//When this posedge occurs The register here will become a 1, but the Transfercomplete reg will become a zero.
+    always @ (posedge SCLK or negedge _RST or posedge _CS) begin
+        if (_RST==0) begin
             FirstByteReceived<=0;
+            TransferCompleteDelayReg<=0;
+        end
+        else begin
+            if (_CS==1) begin //end of transfer.  Must meet requirements in SCLK_Counter.v.  
+            FirstByteReceived<='b00;
+            TransferCompleteDelayReg<=0;
+            end
+            else begin
+         if (TransferComplete==1) begin
+            FirstByteReceived<='b01; //set after receiving a byte.  Doesn't matter after the first byte.
+            TransferCompleteDelayReg<=1; //delay address writing.
+        end
+         if (FirstByteReceived==1) begin
+            FirstByteReceived<='b10; //set this so _Write is delayed for the first transfer.  Prevents accidental writes.
+        end
+        
+         if (TransferComplete==0) begin
+            TransferCompleteDelayReg<=0;
+        end
+        end
         end
     end
+//module instanations.
 
-
-    SPI_Slave spislave 
+    SPI_Slave #(.TXEnable(0)) spislave 
     (.SCLK(SCLK),
     .MOSI(MOSI),
     .TXDataLine(),
@@ -42,9 +63,10 @@ assign _Write= ~(TransferComplete&FirstByteReceived);
 
 
     AddressPointer AddressPtr (
-    .CLK(CLK),
-    ._RST('b1),
-    .NewAddress(NewAddress),
+    .CLK(AddressWrite),
+    ._RST(_RST),
+    .FirstByteReceived(FirstByteReceivedOut),
+    .FirstAddress(FirstAddress),
     .AddressBus(AddressBus)
     );
 
@@ -53,8 +75,7 @@ assign _Write= ~(TransferComplete&FirstByteReceived);
     ._Write(_Write),
     .AddressBus(AddressBus),
     .DataIn(WriteBus),
-    ._HOLD('b0),
-    ._RST('b1),
+    ._RST(_RST),
     .PWMOut(PWMOutputs[0])
     );
 
@@ -63,8 +84,7 @@ assign _Write= ~(TransferComplete&FirstByteReceived);
     ._Write(_Write),
     .AddressBus(AddressBus),
     .DataIn(WriteBus),
-    ._HOLD('b0),
-    ._RST('b1),
+    ._RST(_RST),
     .PWMOut(PWMOutputs[1])
     );
 
@@ -73,8 +93,7 @@ assign _Write= ~(TransferComplete&FirstByteReceived);
     ._Write(_Write),
     .AddressBus(AddressBus),
     .DataIn(WriteBus),
-    ._HOLD('b0),
-    ._RST('b1),
+    ._RST(_RST),
     .PWMOut(PWMOutputs[2])
     );
 
@@ -83,8 +102,7 @@ assign _Write= ~(TransferComplete&FirstByteReceived);
     ._Write(_Write),
     .AddressBus(AddressBus),
     .DataIn(WriteBus),
-    ._HOLD('b0),
-    ._RST('b1),
+    ._RST(_RST),
     .PWMOut(PWMOutputs[3])
     );
 endmodule

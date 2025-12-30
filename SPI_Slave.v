@@ -1,4 +1,4 @@
-module SPI_Slave(
+module SPI_Slave #(parameter RXEnable=1,parameter TXEnable=1)(
     input SCLK,
     input MOSI,
     input [7:0] TXDataLine, 
@@ -12,9 +12,12 @@ module SPI_Slave(
 wire [7:0] SecondRXDataLine;// simulation purposes.
 wire [3:0] CounterOutput;
 wire CounterFinished;
+if (RXEnable==1) begin
 RX_SPI_Shift_Register RXSPIShiftRegister(.CLK(SCLK),._HOLD(_CS),._RST(_RST), .DataIn(MOSI),.RXDataLine(RXDataLine));
+end
+if (TXEnable==1) begin
 TX_SPI_Shift_Register TXSPIShiftRegister(.CLK(SCLK),._HOLD(_CS),._RST(_RST), .TXDataLine(TXDataLine),.RXDataLine(SecondRXDataLine),.DataOut(MISO));
-
+end
 assign TranscationCompleted=CounterFinished;
 SCLK_Counter Counter(.CLK(SCLK),._CS(_CS),._RST(_RST),.CounterOutput(CounterFinished),.Counter(CounterOutput));
 

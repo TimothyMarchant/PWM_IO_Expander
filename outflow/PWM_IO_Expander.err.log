@@ -32,3 +32,167 @@
 // Dec 29, 2025 14:07:54
 ///////////////////////////////////
 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 16:16:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port '_HOLD' on this module (VERI-1010) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0010 VERI-ERROR] cannot find port '_HOLD' on this module (VERI-1010) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:66)
+[EFX-0010 VERI-ERROR] cannot find port '_HOLD' on this module (VERI-1010) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:76)
+[EFX-0010 VERI-ERROR] cannot find port '_HOLD' on this module (VERI-1010) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:86)
+[EFX-0021 ERROR] Elaboration of module 'PWM_IO_Expander' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 16:17:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:00:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:00:50
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v:17)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v:17)
+[EFX-0010 VERI-ERROR] module 'N_Bit_Register' is ignored due to previous errors (VERI-1072) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v:28)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:00:58
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] if-condition does not match any sensitivity list edge (VERI-1167) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v:17)
+[EFX-0010 VERI-ERROR] assignment under multiple clock edges is not supported for synthesis (VERI-1466) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v:19)
+[EFX-0021 ERROR] Elaboration of module 'PWM_IO_Expander' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:01:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:01:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:04:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:05:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:05:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:06:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:16:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] if-condition does not match any sensitivity list edge (VERI-1167) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:43)
+[EFX-0021 ERROR] Elaboration of module 'PWM_IO_Expander' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:16:57
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:31:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'BitWidth' is not declared (VERI-1128) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:11)
+[EFX-0010 VERI-ERROR] range must be bounded by constant expressions (VERI-1952) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:11)
+[EFX-0010 VERI-ERROR] module 'PWMRegister' is ignored due to previous errors (VERI-1072) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:45)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:31:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:45:23
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'NewAddress' on this module (VERI-1010) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:50)
+[EFX-0021 ERROR] Elaboration of module 'PWM_IO_Expander' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:45:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 18:53:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 19:43:09
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot index into non-array type wire for 'TransferComplete' (VERI-1011) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:22)
+[EFX-0010 VERI-ERROR] module 'Main' is ignored due to previous errors (VERI-1072) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:98)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 19:43:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 29, 2025 23:57:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 00:31:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 00:40:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 00:44:31
+///////////////////////////////////
+

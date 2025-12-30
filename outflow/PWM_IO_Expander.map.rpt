@@ -1,6 +1,6 @@
 Efinity Synthesis report for project PWM_IO_Expander
 Version: 2025.2.288.2.10
-Generated at: Dec 29, 2025 14:07:54
+Generated at: Dec 30, 2025 00:44:31
 Copyright (C) 2013 - 2025  All rights reserved.
 
 Top-level Entity Name : PWM_IO_Expander
@@ -16,6 +16,7 @@ max-carry-cascade : 160
 max_mult : -1
 max_ram : -1
 mode : speed
+infer-clk-enable : 4
 mult-decomp-retime : 0
 output-dir : C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow
 project : PWM_IO_Expander
@@ -43,54 +44,76 @@ C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v
 
 
 ### ### EFX_FF CE enables (begin) ### ### ###
-Total number of enable signals: 25
-Total number of FFs with enable signals: 185
-CE signal <main/SecondRegister/PWMTimer/n45>, number of controlling flip flops: 11
-CE signal <main/FourthRegister/PWMTimer/n45>, number of controlling flip flops: 11
-CE signal <main/FirstRegister/PWMTimer/n45>, number of controlling flip flops: 11
-CE signal <main/ThirdRegister/PWMTimer/n45>, number of controlling flip flops: 11
-CE signal <CS>, number of controlling flip flops: 9
-CE signal <main/SecondRegister/PWMTimer/n26>, number of controlling flip flops: 1
+Total number of enable signals: 34
+Total number of FFs with enable signals: 270
+CE signal <ceg_net3>, number of controlling flip flops: 2
+CE signal <n129>, number of controlling flip flops: 16
+CE signal <main/SecondRegister/PWMTimer/n44>, number of controlling flip flops: 1
+CE signal <main/SecondRegister/TimerCountUpper/Addressed>, number of controlling flip flops: 8
 CE signal <main/SecondRegister/TimerPrescalerUpper/Addressed>, number of controlling flip flops: 8
 CE signal <main/SecondRegister/SwitchValueUpper/Addressed>, number of controlling flip flops: 8
+CE signal <main/SecondRegister/TimerCountLower/Addressed>, number of controlling flip flops: 8
 CE signal <main/SecondRegister/TimerPrescalerLower/Addressed>, number of controlling flip flops: 8
 CE signal <main/SecondRegister/SwitchValueLower/Addressed>, number of controlling flip flops: 8
-CE signal <main/FourthRegister/PWMTimer/n26>, number of controlling flip flops: 1
+CE signal <n241>, number of controlling flip flops: 16
+CE signal <main/FirstRegister/PWMTimer/n44>, number of controlling flip flops: 1
+CE signal <main/FirstRegister/SwitchValueUpper/Addressed>, number of controlling flip flops: 8
+CE signal <main/FirstRegister/SwitchValueLower/Addressed>, number of controlling flip flops: 8
+CE signal <main/FirstRegister/TimerCountUpper/Addressed>, number of controlling flip flops: 8
+CE signal <main/FirstRegister/TimerPrescalerUpper/Addressed>, number of controlling flip flops: 8
+CE signal <main/FirstRegister/TimerCountLower/Addressed>, number of controlling flip flops: 8
+CE signal <main/FirstRegister/TimerPrescalerLower/Addressed>, number of controlling flip flops: 8
+CE signal <n353>, number of controlling flip flops: 16
+CE signal <main/FourthRegister/PWMTimer/n44>, number of controlling flip flops: 1
 CE signal <main/FourthRegister/SwitchValueUpper/Addressed>, number of controlling flip flops: 8
+CE signal <main/FourthRegister/TimerCountUpper/Addressed>, number of controlling flip flops: 8
 CE signal <main/FourthRegister/SwitchValueLower/Addressed>, number of controlling flip flops: 8
+CE signal <main/FourthRegister/TimerCountLower/Addressed>, number of controlling flip flops: 8
 CE signal <main/FourthRegister/TimerPrescalerUpper/Addressed>, number of controlling flip flops: 8
 CE signal <main/FourthRegister/TimerPrescalerLower/Addressed>, number of controlling flip flops: 8
-CE signal <main/ThirdRegister/PWMTimer/n26>, number of controlling flip flops: 1
+CE signal <n465>, number of controlling flip flops: 16
+CE signal <main/ThirdRegister/PWMTimer/n44>, number of controlling flip flops: 1
 CE signal <main/ThirdRegister/TimerPrescalerUpper/Addressed>, number of controlling flip flops: 8
 CE signal <main/ThirdRegister/SwitchValueUpper/Addressed>, number of controlling flip flops: 8
 CE signal <main/ThirdRegister/TimerPrescalerLower/Addressed>, number of controlling flip flops: 8
 CE signal <main/ThirdRegister/SwitchValueLower/Addressed>, number of controlling flip flops: 8
-CE signal <main/FirstRegister/PWMTimer/n26>, number of controlling flip flops: 1
-CE signal <main/FirstRegister/SwitchValueUpper/Addressed>, number of controlling flip flops: 8
-CE signal <main/FirstRegister/SwitchValueLower/Addressed>, number of controlling flip flops: 8
-CE signal <main/FirstRegister/TimerPrescalerUpper/Addressed>, number of controlling flip flops: 8
-CE signal <main/FirstRegister/TimerPrescalerLower/Addressed>, number of controlling flip flops: 8
+CE signal <main/ThirdRegister/TimerCountUpper/Addressed>, number of controlling flip flops: 8
+CE signal <main/ThirdRegister/TimerCountLower/Addressed>, number of controlling flip flops: 8
+CE signal <CS>, number of controlling flip flops: 8
 ### ### EFX_FF CE enables (end) ### ### ###
 
 ### ### EFX_FF SR set/reset (begin) ### ### ###
-Total number of set/reset signals: 8
-Total number of FFs with set/reset signals: 58
-SR signal <main/SecondRegister/PWMTimer/n26>, number of controlling flip flops: 11
-SR signal <main/FourthRegister/PWMTimer/n26>, number of controlling flip flops: 11
-SR signal <main/FirstRegister/PWMTimer/n26>, number of controlling flip flops: 11
-SR signal <main/ThirdRegister/PWMTimer/n26>, number of controlling flip flops: 11
-SR signal <main/TransferComplete>, number of controlling flip flops: 1
+Total number of set/reset signals: 28
+Total number of FFs with set/reset signals: 340
+SR signal <RST>, number of controlling flip flops: 140
+SR signal <main/n54>, number of controlling flip flops: 3
 SR signal <CS>, number of controlling flip flops: 4
+SR signal <main/SecondRegister/TimerCountUpper/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/SecondRegister/TimerPrescalerUpper/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/SecondRegister/SwitchValueUpper/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/SecondRegister/TimerCountLower/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/SecondRegister/TimerPrescalerLower/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/SecondRegister/SwitchValueLower/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/FirstRegister/SwitchValueUpper/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/FirstRegister/SwitchValueLower/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/FirstRegister/TimerCountUpper/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/FirstRegister/TimerPrescalerUpper/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/FirstRegister/TimerCountLower/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/FirstRegister/TimerPrescalerLower/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/FourthRegister/SwitchValueUpper/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/FourthRegister/TimerCountUpper/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/FourthRegister/SwitchValueLower/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/FourthRegister/TimerCountLower/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/FourthRegister/TimerPrescalerUpper/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/FourthRegister/TimerPrescalerLower/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/ThirdRegister/TimerPrescalerUpper/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/ThirdRegister/SwitchValueUpper/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/ThirdRegister/TimerPrescalerLower/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/ThirdRegister/SwitchValueLower/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/ThirdRegister/TimerCountUpper/genblk3.Register/n15>, number of controlling flip flops: 8
+SR signal <main/ThirdRegister/TimerCountLower/genblk3.Register/n15>, number of controlling flip flops: 8
 SR signal <main/spislave/CounterOutput[3]>, number of controlling flip flops: 1
-SR signal <main/FirstByteReceived>, number of controlling flip flops: 8
 ### ### EFX_FF SR set/reset (end) ### ### ###
-
-### ### Sequential Elements Trimming Report (begin) ### ### ### 
-FF instance: main/spislave/TXSPIShiftRegister/dff_21/i1(unreachable)
-FF instance: main/spislave/TXSPIShiftRegister/dff_21/i2(unreachable)
-FF instance: main/spislave/TXSPIShiftRegister/dff_21/i3(unreachable)
-FF instance: main/spislave/TXSPIShiftRegister/dff_21/i4(unreachable)
-### ### Sequential Elements Trimming Report (end) ### ### ### 
 
 ### ### Module Resource Usage Distribution Estimates (begin) ### ###
 
@@ -98,79 +121,95 @@ FF instance: main/spislave/TXSPIShiftRegister/dff_21/i4(unreachable)
 
 Module                                                             FFs      ADDs      LUTs      RAMs DSP/MULTs
 ------------------------------------------------------------       ---      ----      ----      ---- ---------
-PWM_IO_Expander:PWM_IO_Expander                                 262(0)    100(0)    281(0)      0(0)      0(0)
- +main:Main                                                     262(1)    100(0)    281(9)      0(0)      0(0)
-  +spislave:SPI_Slave                                            13(0)      0(0)      4(0)      0(0)      0(0)
-   +RXSPIShiftRegister:RX_SPI_Shift_Register                      8(8)      0(0)      0(0)      0(0)      0(0)
+PWM_IO_Expander:PWM_IO_Expander                                 348(0)    127(0)    539(0)      0(0)      0(0)
+ +main:Main                                                     348(3)    127(0)    539(5)      0(0)      0(0)
+  +spislave:SPI_Slave(TXEnable=0)                                13(0)      0(0)      4(0)      0(0)      0(0)
+   +genblk1.RXSPIShiftRegister:RX_SPI_Shift_Register              8(8)      0(0)      0(0)      0(0)      0(0)
    +Counter:SCLK_Counter                                          5(5)      0(0)      4(4)      0(0)      0(0)
-  +AddressPtr:AddressPointer                                      8(8)      0(0)      0(0)      0(0)      0(0)
-  +FirstRegister:PWMRegister                                     60(0)     25(0)     61(0)      0(0)      0(0)
-   +SwitchValueUpper:AddressableRegister(AddressValue=0)          8(0)      0(0)      1(1)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
-   +SwitchValueLower:AddressableRegister(AddressValue=1)          8(0)      0(0)      1(1)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
-   +TimerPrescalerUpper:AddressableRegister(AddressValue=4)       8(0)      0(0)      2(2)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
-   +TimerPrescalerLower:AddressableRegister(AddressValue=5)       8(0)      0(0)      1(1)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
-   +PWMTimer:Timer                                              28(28)    25(25)    56(56)      0(0)      0(0)
-  +SecondRegister:PWMRegister(StartAddress=6)                    60(0)     25(0)     67(0)      0(0)      0(0)
-   +SwitchValueUpper:AddressableRegister(AddressValue=6)          8(0)      0(0)      1(1)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
-   +SwitchValueLower:AddressableRegister(AddressValue=7)          8(0)      0(0)      1(1)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
-   +TimerPrescalerUpper:AddressableRegister(AddressValue=10)      8(0)      0(0)      3(3)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
+  +AddressPtr:AddressPointer                                      8(8)      7(7)      8(8)      0(0)      0(0)
+  +FirstRegister:PWMRegister                                     81(0)     30(0)    131(0)      0(0)      0(0)
+   +SwitchValueUpper:AddressableRegister(AddressValue=0)          8(0)      0(0)      2(2)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +SwitchValueLower:AddressableRegister(AddressValue=1)          8(0)      0(0)      2(2)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerCountUpper:AddressableRegister(AddressValue=2)           8(0)      0(0)      3(3)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerCountLower:AddressableRegister(AddressValue=3)           8(0)      0(0)      3(3)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerPrescalerUpper:AddressableRegister(AddressValue=4)       8(0)      0(0)      3(3)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerPrescalerLower:AddressableRegister(AddressValue=5)       8(0)      0(0)      4(4)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +PWMTimer:Timer                                              33(33)    30(30)  114(114)      0(0)      0(0)
+  +SecondRegister:PWMRegister(StartAddress=6)                    81(0)     30(0)    130(0)      0(0)      0(0)
+   +SwitchValueUpper:AddressableRegister(AddressValue=6)          8(0)      0(0)      2(2)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +SwitchValueLower:AddressableRegister(AddressValue=7)          8(0)      0(0)      2(2)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerCountUpper:AddressableRegister(AddressValue=8)           8(0)      0(0)      2(2)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerCountLower:AddressableRegister(AddressValue=9)           8(0)      0(0)      2(2)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerPrescalerUpper:AddressableRegister(AddressValue=10)      8(0)      0(0)      2(2)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
    +TimerPrescalerLower:AddressableRegister(AddressValue=11)      8(0)      0(0)      2(2)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
-   +PWMTimer:Timer                                              28(28)    25(25)    60(60)      0(0)      0(0)
-  +ThirdRegister:PWMRegister(StartAddress=12)                    60(0)     25(0)     66(0)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +PWMTimer:Timer                                              33(33)    30(30)  118(118)      0(0)      0(0)
+  +ThirdRegister:PWMRegister(StartAddress=12)                    81(0)     30(0)    132(0)      0(0)      0(0)
    +SwitchValueUpper:AddressableRegister(AddressValue=12)         8(0)      0(0)      2(2)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
    +SwitchValueLower:AddressableRegister(AddressValue=13)         8(0)      0(0)      2(2)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
-   +TimerPrescalerUpper:AddressableRegister(AddressValue=16)      8(0)      0(0)      2(2)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerCountUpper:AddressableRegister(AddressValue=14)          8(0)      0(0)      2(2)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerCountLower:AddressableRegister(AddressValue=15)          8(0)      0(0)      2(2)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerPrescalerUpper:AddressableRegister(AddressValue=16)      8(0)      0(0)      4(4)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
    +TimerPrescalerLower:AddressableRegister(AddressValue=17)      8(0)      0(0)      2(2)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
-   +PWMTimer:Timer                                              28(28)    25(25)    58(58)      0(0)      0(0)
-  +FourthRegister:PWMRegister(StartAddress=18)                   60(0)     25(0)     74(0)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +PWMTimer:Timer                                              33(33)    30(30)  118(118)      0(0)      0(0)
+  +FourthRegister:PWMRegister(StartAddress=18)                   81(0)     30(0)    129(0)      0(0)      0(0)
    +SwitchValueUpper:AddressableRegister(AddressValue=18)         8(0)      0(0)      2(2)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
-   +SwitchValueLower:AddressableRegister(AddressValue=19)         8(0)      0(0)      1(1)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
-   +TimerPrescalerUpper:AddressableRegister(AddressValue=22)      8(0)      0(0)      1(1)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
-   +TimerPrescalerLower:AddressableRegister(AddressValue=23)      8(0)      0(0)      4(4)      0(0)      0(0)
-    +Register:N_Bit_Register                                      8(8)      0(0)      0(0)      0(0)      0(0)
-   +PWMTimer:Timer                                              28(28)    25(25)    66(66)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +SwitchValueLower:AddressableRegister(AddressValue=19)         8(0)      0(0)      2(2)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerCountUpper:AddressableRegister(AddressValue=20)          8(0)      0(0)      2(2)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerCountLower:AddressableRegister(AddressValue=21)          8(0)      0(0)      2(2)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerPrescalerUpper:AddressableRegister(AddressValue=22)      8(0)      0(0)      3(3)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +TimerPrescalerLower:AddressableRegister(AddressValue=23)      8(0)      0(0)      2(2)      0(0)      0(0)
+    +genblk3.Register:N_Bit_Register                              8(8)      0(0)      0(0)      0(0)      0(0)
+   +PWMTimer:Timer                                              33(33)    30(30)  116(116)      0(0)      0(0)
 
 ### ### Module Resource Usage Distribution Estimates (end) ### ###
 
 
 ### ### Clock Load Distribution Report (begin) ### ###
 
-                          Clock      Flip-Flops    Memory PortsMultipliers/DSPs
-                          -----      ----------    ----------------------------
-                        MainCLK             120               0               0
-                           SCLK              13               0               0
-                       main/n31             128               0               0
- main/spislave/CounterOutput[3]               1               0               0
+                           Clock      Flip-Flops    Memory PortsMultipliers/DSPs
+                           -----      ----------    ----------------------------
+                         MainCLK             132               0               0
+                            SCLK              16               0               0
+ main/SecondRegister/RegisterCLK             192               0               0
+               main/AddressWrite               8               0               0
 
 ### ### Clock Load Distribution Report (end) ### ###
 
 ### ### Resource Summary (begin) ### ### ### 
-INPUT  PORTS    : 	4
+INPUT  PORTS    : 	5
 OUTPUT PORTS    : 	5
 
-EFX_ADD         : 	100
-EFX_LUT4        : 	281
-   1-2  Inputs  : 	59
-   3    Inputs  : 	45
-   4    Inputs  : 	177
-EFX_FF          : 	262
+EFX_ADD         : 	127
+EFX_LUT4        : 	539
+   1-2  Inputs  : 	168
+   3    Inputs  : 	136
+   4    Inputs  : 	235
+EFX_FF          : 	348
 EFX_GBUFCE      : 	4
 ### ### Resource Summary (end) ### ### ###
 
-Plain synthesis (without verilog dump and post-map checks) time : 3s
-Elapsed synthesis time : 3s
+Plain synthesis (without verilog dump and post-map checks) time : 2s
+Elapsed synthesis time : 2s

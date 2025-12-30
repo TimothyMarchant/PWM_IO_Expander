@@ -7,8 +7,8 @@ Frequency options 50hz, 120hz, 200hz, 400hz, 1000hz, 2000hz, and 4000hz.
 */
 
 
-module PWMRegister # (parameter StartAddress=0, parameter AddressWidth=8, parameter BitWidth=8, parameter Frequency=50000000) 
-(input CLK,input _Write,input [AddressWidth-1:0] AddressBus, input [BitWidth-1:0] DataIn, input _RST, output PWMOut);
+module PWMRegister # (parameter StartAddress=0, parameter AddressWidth=8) 
+(input CLK,input _Write,input [AddressWidth-1:0] AddressBus, input [7:0] DataIn, input _RST, output PWMOut);
 //declarations
 wire [15:0] SwitchValue;
 wire [15:0] CountOutputs;

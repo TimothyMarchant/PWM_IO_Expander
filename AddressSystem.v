@@ -1,4 +1,4 @@
-module AddressPointer # (parameter AddressWidth=8) (input CLK, input _RST, input [AddressWidth-1:0] NewAddress, output [AddressWidth-1:0] AddressBus);
+module AddressPointer # (parameter AddressWidth=8) (input CLK, input _RST, input FirstByteReceived, input [AddressWidth-1:0] FirstAddress, output [AddressWidth-1:0] AddressBus);
 
 reg [AddressWidth-1:0] AddressRegister;
 assign AddressBus=AddressRegister;
@@ -8,7 +8,13 @@ always @ (posedge CLK or negedge _RST) begin
         AddressRegister<=0;
     end
     else begin
-        AddressRegister<=NewAddress;
+        //No need to reset after a transfer is complete.  The first byte received is always the new address.
+        if (FirstByteReceived==0) begin
+        AddressRegister<=FirstAddress;
+        end
+        else begin
+            AddressRegister<=AddressRegister+1; //Wraps around automatically on an overflow.  Also writing to nonexistant memory addresses doesn't cause problems.
+        end
     end
 end
 

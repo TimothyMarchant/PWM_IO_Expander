@@ -1,12 +1,17 @@
 
 //Meant for device specific stuff nothing else.
+/*
+MainCLK is meant for driving the timers.  It doesn't control anything regarding registers or writes.
+SCLK controls everything, so there are no real concerns with MainCLK.
+MISO is marked, but isn't used currently.
 
+*/
 module PWM_IO_Expander (
     input MainCLK, 
     input CS, 
     input SCLK, 
     input MOSI, 
-    //input RST,
+    input RST,
     output MISO, 
     output [3:0] OnBoardLEDS
     );
@@ -29,6 +34,7 @@ Main main
 .SCLK(SCLKReal),
 .MOSI(MOSIReal),
 .MISO(MISOReal),
+._RST(RST),
 .PWMOutputs(PWMOutputs)
 );
 

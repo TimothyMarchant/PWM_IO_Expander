@@ -52,12 +52,12 @@ INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PW
 INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v' [VERI-1482]
 INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v' [VERI-1482]
 INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v' [VERI-1482]
-INFO     : Analysis took 0.0187508 seconds [FlowMsg::StageDuration]
+INFO     : Analysis took 0.0284057 seconds [FlowMsg::StageDuration]
 INFO     :     Analysis took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : Analysis virtual memory usage: begin = 52.92 MB, end = 53.96 MB, delta = 1.04 MB [FlowMsg::VMUsage]
-INFO     :     Analysis peak virtual memory usage = 53.968 MB [FlowMsg::VMUsage::Peak]
-INFO     : Analysis resident set memory usage: begin = 58.992 MB, end = 60.736 MB, delta = 1.744 MB [FlowMsg::RSSUsage]
-INFO     :     Analysis peak resident set memory usage = 60.736 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Analysis virtual memory usage: begin = 52.896 MB, end = 53.936 MB, delta = 1.04 MB [FlowMsg::VMUsage]
+INFO     :     Analysis peak virtual memory usage = 53.944 MB [FlowMsg::VMUsage::Peak]
+INFO     : Analysis resident set memory usage: begin = 58.96 MB, end = 60.704 MB, delta = 1.744 MB [FlowMsg::RSSUsage]
+INFO     :     Analysis peak resident set memory usage = 60.704 MB [FlowMsg::RSSUsage::Peak]
 INFO     : ***** Ending Analysis ... *****
 INFO     : ***** Beginning Elaboration ... *****
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v(9): compiling module 'PWM_IO_Expander' [VERI-1018]
@@ -102,12 +102,12 @@ INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Addressabl
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=22)' [VERI-1018]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=23)' [VERI-1018]
 WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v(53): input port 'TXDataLine[7]' is not connected on this instance [VDB-1013]
-INFO     : Elaboration took 0.0097603 seconds [FlowMsg::StageDuration]
+INFO     : Elaboration took 0.0099896 seconds [FlowMsg::StageDuration]
 INFO     :     Elaboration took 0.015625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : Elaboration virtual memory usage: begin = 53.96 MB, end = 56.016 MB, delta = 2.056 MB [FlowMsg::VMUsage]
-INFO     :     Elaboration peak virtual memory usage = 56.016 MB [FlowMsg::VMUsage::Peak]
-INFO     : Elaboration resident set memory usage: begin = 60.776 MB, end = 63.564 MB, delta = 2.788 MB [FlowMsg::RSSUsage]
-INFO     :     Elaboration peak resident set memory usage = 63.564 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Elaboration virtual memory usage: begin = 53.936 MB, end = 55.996 MB, delta = 2.06 MB [FlowMsg::VMUsage]
+INFO     :     Elaboration peak virtual memory usage = 55.996 MB [FlowMsg::VMUsage::Peak]
+INFO     : Elaboration resident set memory usage: begin = 60.744 MB, end = 63.54 MB, delta = 2.796 MB [FlowMsg::RSSUsage]
+INFO     :     Elaboration peak resident set memory usage = 63.54 MB [FlowMsg::RSSUsage::Peak]
 INFO     : ***** Ending Elaboration ... *****
 INFO     : ... Setting Synthesis Option: mode=speed
 INFO     : ***** Beginning Reading Mapping Library ... *****
@@ -129,12 +129,12 @@ INFO     : C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(561): compiling m
 INFO     : C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(653): compiling module 'EFX_RAM10' [VERI-1018]
 INFO     : C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(754): compiling module 'EFX_DPRAM10' [VERI-1018]
 INFO     : C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(884): compiling module 'EFX_SRL8' [VERI-1018]
-INFO     : Reading Mapping Library took 0.0045311 seconds [FlowMsg::StageDuration]
+INFO     : Reading Mapping Library took 0.0045778 seconds [FlowMsg::StageDuration]
 INFO     :     Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : Reading Mapping Library virtual memory usage: begin = 59.608 MB, end = 59.608 MB, delta = 0 MB [FlowMsg::VMUsage]
-INFO     :     Reading Mapping Library peak virtual memory usage = 59.608 MB [FlowMsg::VMUsage::Peak]
-INFO     : Reading Mapping Library resident set memory usage: begin = 65.424 MB, end = 65.432 MB, delta = 0.008 MB [FlowMsg::RSSUsage]
-INFO     :     Reading Mapping Library peak resident set memory usage = 65.432 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Reading Mapping Library virtual memory usage: begin = 59.584 MB, end = 59.584 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     Reading Mapping Library peak virtual memory usage = 59.584 MB [FlowMsg::VMUsage::Peak]
+INFO     : Reading Mapping Library resident set memory usage: begin = 65.4 MB, end = 65.408 MB, delta = 0.008 MB [FlowMsg::RSSUsage]
+INFO     :     Reading Mapping Library peak resident set memory usage = 65.408 MB [FlowMsg::RSSUsage::Peak]
 INFO     : ***** Ending Reading Mapping Library ... *****
 INFO     : ... Pre-synthesis checks begin
 WARNING  : The primary output port 'MISO' wire 'MISO' is not driven. [EFX-0256]
@@ -285,7 +285,7 @@ INFO     : ... Clock Network 'main/SecondRegister/RegisterCLK' with 192 loads wi
 INFO     : ... Clock Network 'MainCLK' with 132 loads will be considered for sequential optimization.
 INFO     : ... Clock Network 'SCLK' with 15 loads will be considered for sequential optimization.
 INFO     : ... Sequential Optimization deduced 1 equivalent points.
-INFO     : ... Sequential Optimization end (Real time : 1s)
+INFO     : ... Sequential Optimization end (Real time : 0s)
 INFO     : ... Setup for logic synthesis begin
 INFO     : ... Setup for logic synthesis end (Real time : 0s)
 INFO     : ... LUT mapping begin
@@ -299,14 +299,14 @@ INFO     : ... Clock Network 'MainCLK~MainCLK' with 132 loads will be considered
 INFO     : ... Clock Network 'SCLK~SCLK' with 15 loads will be considered for retiming optimization.
 INFO     : ... Clock Network 'main/AddressWrite' with 8 loads will be considered for retiming optimization.
 INFO     : ... Performed 0 retime moves.
-INFO     : ... Postmap Retiming Optimization end (Real time : 0s)
+INFO     : ... Postmap Retiming Optimization end (Real time : 1s)
 INFO     : ***** Beginning VDB Netlist Checker ... *****
-INFO     : VDB Netlist Checker took 0.0005173 seconds [FlowMsg::StageDuration]
+INFO     : VDB Netlist Checker took 0.0005711 seconds [FlowMsg::StageDuration]
 INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : VDB Netlist Checker virtual memory usage: begin = 73.604 MB, end = 73.604 MB, delta = 0 MB [FlowMsg::VMUsage]
-INFO     :     VDB Netlist Checker peak virtual memory usage = 132.42 MB [FlowMsg::VMUsage::Peak]
-INFO     : VDB Netlist Checker resident set memory usage: begin = 87.832 MB, end = 87.884 MB, delta = 0.052 MB [FlowMsg::RSSUsage]
-INFO     :     VDB Netlist Checker peak resident set memory usage = 131.62 MB [FlowMsg::RSSUsage::Peak]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 74.46 MB, end = 74.46 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 132.356 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 88.736 MB, end = 88.788 MB, delta = 0.052 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 131.864 MB [FlowMsg::RSSUsage::Peak]
 INFO     : ***** Ending VDB Netlist Checker ... *****
 INFO     : Resource Summary 
 INFO     : =============================== 
@@ -318,9 +318,9 @@ INFO     : ===============================
 INFO     : ... Post-Map Verilog Writer begin
 INFO     : Writing netlist 'PWM_IO_Expander' to Verilog file 'C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.map.v' [VDB-1030]
 INFO     : ... Post-Map Verilog Writer end (Real time : 0s)
-INFO     : The entire flow of EFX_MAP took 2.0478913 seconds [FlowMsg::StageDuration]
-INFO     :     The entire flow of EFX_MAP took 1.625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 18.496 MB, end = 79.348 MB, delta = 60.852 MB [FlowMsg::VMUsage]
-INFO     :     The entire flow of EFX_MAP peak virtual memory usage = 132.42 MB [FlowMsg::VMUsage::Peak]
-INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 18.636 MB, end = 91.604 MB, delta = 72.968 MB [FlowMsg::RSSUsage]
-INFO     :     The entire flow of EFX_MAP peak resident set memory usage = 131.62 MB [FlowMsg::RSSUsage::Peak]
+INFO     : The entire flow of EFX_MAP took 2.1078257 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_MAP took 1.8125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 18.476 MB, end = 80.9 MB, delta = 62.424 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_MAP peak virtual memory usage = 132.356 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 18.612 MB, end = 93.008 MB, delta = 74.396 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_MAP peak resident set memory usage = 131.864 MB [FlowMsg::RSSUsage::Peak]

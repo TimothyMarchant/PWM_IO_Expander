@@ -14,13 +14,16 @@ module Main #(parameter NumOfPWMOutputs=4) (input CLK, input _CS, input SCLK, in
     wire [7:0] FirstAddress;
     wire FirstByteReceivedOut;
 
-    supply0 [7:0] PullDowns;
 //assignments
 assign WriteBus = SPIRXOutput;
 assign FirstAddress = SPIRXOutput;
 assign AddressWrite= FirstByteReceived[1] ? TransferCompleteDelayReg : TransferComplete; //essentially delay address writing after the first byte has been received.
 assign _Write = ~(TransferComplete&FirstByteReceived[1]);
 assign FirstByteReceivedOut = FirstByteReceived[0]|FirstByteReceived[1];
+initial begin
+    FirstByteReceived<=0;
+    TransferCompleteDelayReg<=0;
+end
 //meant for determining where to send data.  The first byte is an address.  The nth byte is data for a register.
 //When this posedge occurs The register here will become a 1, but the Transfercomplete reg will become a zero.
     always @ (posedge SCLK or negedge _RST or posedge _CS) begin

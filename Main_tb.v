@@ -68,7 +68,9 @@ module Main_tb();
         SPITransfer;
         SPITransfer;
         EndTransfer;
+        #50000000
         $display("Actually done");
+        $finish; //end simulation
     end
 
     task WriteRegisters;

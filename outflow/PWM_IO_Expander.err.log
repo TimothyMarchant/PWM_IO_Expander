@@ -202,3 +202,29 @@
 // Dec 30, 2025 01:00:07
 ///////////////////////////////////
 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 01:24:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 09:50:29
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'AddressableRegister' is not declared (VERI-1128) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:7)
+[EFX-0010 VERI-ERROR] module 'AddressPointer' is ignored due to previous errors (VERI-1072) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:24)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 09:50:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 11:51:54
+///////////////////////////////////
+

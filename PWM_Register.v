@@ -13,12 +13,13 @@ module PWMRegister # (parameter StartAddress=0, parameter AddressWidth=8)
 wire [15:0] SwitchValue;
 wire [15:0] CountOutputs;
 wire [15:0] PrescalerOutputs;
-
+//Clock clocks data in on posedge.
+wire RegisterCLK;
+assign RegisterCLK=~_Write;
 
 //module instanations.
 
-wire RegisterCLK;
-assign RegisterCLK=~_Write;
+
 
 AddressableRegister # (.AddressValue(StartAddress+0)) SwitchValueUpper  (.CLK(RegisterCLK),._HOLD('b0),._RST(_RST),.AddressBus(AddressBus),
 .DataIn(DataIn),.DataOut(SwitchValue[15:8]));

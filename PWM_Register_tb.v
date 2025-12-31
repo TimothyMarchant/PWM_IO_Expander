@@ -11,7 +11,7 @@ reg _RST;
 wire PWMOutput1;
 wire PWMOutput2;
 
-
+//test two registers.
 PWMRegister #(.StartAddress(0)) TestRegister (.CLK(CLK),._Write(_Write),.AddressBus(AddressBus),.DataIn(DataIn),._HOLD(_Hold),._RST(_RST),.PWMOut(PWMOutput1));
 PWMRegister #(.StartAddress(6)) TestRegister2 (.CLK(CLK),._Write(_Write),.AddressBus(AddressBus),.DataIn(DataIn),._HOLD(_Hold),._RST(_RST),.PWMOut(PWMOutput2));
 

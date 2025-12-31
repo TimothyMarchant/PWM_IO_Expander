@@ -42,6 +42,7 @@ INFO     : Analyzing Verilog file 'C:/Efinity/2025.2/sim_models/maplib/efinix_pe
 INFO     : Analyzing Verilog file 'C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v' [VERI-1482]
 INFO     : Analyzing Verilog file 'C:/Efinity/2025.2/sim_models/maplib/efinix_peri_lib.v' [VERI-1482]
 INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v' [VERI-1482]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v(23): undeclared symbol 'GatedCLK', assumed default net type 'wire' [VERI-2561]
 INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v' [VERI-1482]
 INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\RX_FIFO.v' [VERI-1482]
 INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v' [VERI-1482]
@@ -52,12 +53,12 @@ INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PW
 INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v' [VERI-1482]
 INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v' [VERI-1482]
 INFO     : Analyzing Verilog file 'C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v' [VERI-1482]
-INFO     : Analysis took 0.1085073 seconds [FlowMsg::StageDuration]
+INFO     : Analysis took 0.100901 seconds [FlowMsg::StageDuration]
 INFO     :     Analysis took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : Analysis virtual memory usage: begin = 52.916 MB, end = 53.952 MB, delta = 1.036 MB [FlowMsg::VMUsage]
-INFO     :     Analysis peak virtual memory usage = 53.96 MB [FlowMsg::VMUsage::Peak]
-INFO     : Analysis resident set memory usage: begin = 58.96 MB, end = 60.696 MB, delta = 1.736 MB [FlowMsg::RSSUsage]
-INFO     :     Analysis peak resident set memory usage = 60.696 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Analysis virtual memory usage: begin = 52.888 MB, end = 53.936 MB, delta = 1.048 MB [FlowMsg::VMUsage]
+INFO     :     Analysis peak virtual memory usage = 53.944 MB [FlowMsg::VMUsage::Peak]
+INFO     : Analysis resident set memory usage: begin = 59.032 MB, end = 60.808 MB, delta = 1.776 MB [FlowMsg::RSSUsage]
+INFO     :     Analysis peak resident set memory usage = 60.808 MB [FlowMsg::RSSUsage::Peak]
 INFO     : ***** Ending Analysis ... *****
 INFO     : ***** Beginning Elaboration ... *****
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v(9): compiling module 'PWM_IO_Expander' [VERI-1018]
@@ -71,15 +72,15 @@ INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSys
 WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v(19): expression size 9 truncated to fit in target size 8 [VERI-1209]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v(10): compiling module 'PWMRegister' [VERI-1018]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=0)' [VERI-1018]
-INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v(1): compiling module 'N_Bit_Register' [VERI-1018]
+INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v(2): compiling module 'N_Bit_Register' [VERI-1018]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=1)' [VERI-1018]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=2)' [VERI-1018]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=3)' [VERI-1018]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=4)' [VERI-1018]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=5)' [VERI-1018]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v(2): compiling module 'Timer' [VERI-1018]
-WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v(28): expression size 17 truncated to fit in target size 16 [VERI-1209]
-WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v(32): expression size 17 truncated to fit in target size 16 [VERI-1209]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v(30): expression size 17 truncated to fit in target size 16 [VERI-1209]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v(34): expression size 17 truncated to fit in target size 16 [VERI-1209]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v(10): compiling module 'PWMRegister(StartAddress=6)' [VERI-1018]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=6)' [VERI-1018]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=7)' [VERI-1018]
@@ -101,13 +102,13 @@ INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Addressabl
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=21)' [VERI-1018]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=22)' [VERI-1018]
 INFO     : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v(1): compiling module 'AddressableRegister(AddressValue=23)' [VERI-1018]
-WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v(56): input port 'TXDataLine[7]' is not connected on this instance [VDB-1013]
-INFO     : Elaboration took 0.0103993 seconds [FlowMsg::StageDuration]
-INFO     :     Elaboration took 0.015625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : Elaboration virtual memory usage: begin = 53.952 MB, end = 56.012 MB, delta = 2.06 MB [FlowMsg::VMUsage]
-INFO     :     Elaboration peak virtual memory usage = 56.012 MB [FlowMsg::VMUsage::Peak]
-INFO     : Elaboration resident set memory usage: begin = 60.736 MB, end = 63.528 MB, delta = 2.792 MB [FlowMsg::RSSUsage]
-INFO     :     Elaboration peak resident set memory usage = 63.528 MB [FlowMsg::RSSUsage::Peak]
+WARNING  : C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v(57): input port 'TXDataLine[7]' is not connected on this instance [VDB-1013]
+INFO     : Elaboration took 0.0098077 seconds [FlowMsg::StageDuration]
+INFO     :     Elaboration took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Elaboration virtual memory usage: begin = 53.936 MB, end = 55.988 MB, delta = 2.052 MB [FlowMsg::VMUsage]
+INFO     :     Elaboration peak virtual memory usage = 55.988 MB [FlowMsg::VMUsage::Peak]
+INFO     : Elaboration resident set memory usage: begin = 60.848 MB, end = 63.624 MB, delta = 2.776 MB [FlowMsg::RSSUsage]
+INFO     :     Elaboration peak resident set memory usage = 63.624 MB [FlowMsg::RSSUsage::Peak]
 INFO     : ***** Ending Elaboration ... *****
 INFO     : ... Setting Synthesis Option: mode=speed
 INFO     : ***** Beginning Reading Mapping Library ... *****
@@ -129,15 +130,14 @@ INFO     : C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(561): compiling m
 INFO     : C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(653): compiling module 'EFX_RAM10' [VERI-1018]
 INFO     : C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(754): compiling module 'EFX_DPRAM10' [VERI-1018]
 INFO     : C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v(884): compiling module 'EFX_SRL8' [VERI-1018]
-INFO     : Reading Mapping Library took 0.0054503 seconds [FlowMsg::StageDuration]
-INFO     :     Reading Mapping Library took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : Reading Mapping Library virtual memory usage: begin = 59.604 MB, end = 59.604 MB, delta = 0 MB [FlowMsg::VMUsage]
-INFO     :     Reading Mapping Library peak virtual memory usage = 59.604 MB [FlowMsg::VMUsage::Peak]
-INFO     : Reading Mapping Library resident set memory usage: begin = 65.336 MB, end = 65.344 MB, delta = 0.008 MB [FlowMsg::RSSUsage]
-INFO     :     Reading Mapping Library peak resident set memory usage = 65.344 MB [FlowMsg::RSSUsage::Peak]
+INFO     : Reading Mapping Library took 0.0046469 seconds [FlowMsg::StageDuration]
+INFO     :     Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Reading Mapping Library virtual memory usage: begin = 59.58 MB, end = 59.58 MB, delta = 0 MB [FlowMsg::VMUsage]
+INFO     :     Reading Mapping Library peak virtual memory usage = 59.58 MB [FlowMsg::VMUsage::Peak]
+INFO     : Reading Mapping Library resident set memory usage: begin = 65.444 MB, end = 65.456 MB, delta = 0.012 MB [FlowMsg::RSSUsage]
+INFO     :     Reading Mapping Library peak resident set memory usage = 65.456 MB [FlowMsg::RSSUsage::Peak]
 INFO     : ***** Ending Reading Mapping Library ... *****
 INFO     : ... Pre-synthesis checks begin
-WARNING  : The primary output port 'MISO' wire 'MISO' is not driven. [EFX-0256]
 WARNING  : Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10) [EFX-0200]
 WARNING  : Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10) [EFX-0200]
 WARNING  : Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10) [EFX-0200]
@@ -184,15 +184,14 @@ INFO     : Module Instance 'TimerCountLower' input pin '_HOLD' is tied to consta
 INFO     : Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0). [EFX-0266]
 INFO     : Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0). [EFX-0266]
 INFO     : Module Instance 'spislave' input pin '_RST' is tied to constant (=1). [EFX-0266]
-WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56) [EFX-0201]
-WARNING  : Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:15) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57) [EFX-0201]
+WARNING  : Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57) [EFX-0201]
 INFO     : ... Pre-synthesis checks end (Real time : 0s)
 INFO     : ... NameSpace init begin
 INFO     : ... NameSpace init end (Real time : 0s)
@@ -271,7 +270,9 @@ INFO     : ... Hierarchical pre-synthesis "PWM_IO_Expander" begin
 INFO     : ... Check and break combinational loops begin
 INFO     : ... Check and break combinational loops end (Real time : 0s)
 INFO     : ... Clock Enable Synthesis Performed on 3 flops.
+INFO     : ... Extracted 132 gated clock conditions to clock-enable signals.
 INFO     : ... Hierarchical pre-synthesis "PWM_IO_Expander" end (Real time : 0s)
+WARNING  : Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:16) [EFX-0201]
 INFO     : ... Flat optimizations begin
 INFO     : ... Flat optimizations end (Real time : 0s)
 INFO     : ... Flat synthesis begin
@@ -281,46 +282,46 @@ INFO     : ... Flat optimizations end (Real time : 0s)
 INFO     : ... Check and break combinational loops begin
 INFO     : ... Check and break combinational loops end (Real time : 0s)
 INFO     : ... Sequential Optimization begin
-INFO     : ... Clock Network 'main/SecondRegister/RegisterCLK' with 192 loads will be considered for sequential optimization.
+INFO     : ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for sequential optimization.
 INFO     : ... Clock Network 'MainCLK' with 132 loads will be considered for sequential optimization.
 INFO     : ... Clock Network 'SCLK' with 15 loads will be considered for sequential optimization.
 INFO     : ... Sequential Optimization deduced 1 equivalent points.
-INFO     : ... Sequential Optimization end (Real time : 0s)
+INFO     : ... Sequential Optimization end (Real time : 1s)
 INFO     : ... Setup for logic synthesis begin
 INFO     : ... Setup for logic synthesis end (Real time : 0s)
 INFO     : ... LUT mapping begin
-INFO     : ... LS, strategy: 3, nd: 536, ed: 1705, lv: 6, pw: 994.20
+INFO     : ... LS, strategy: 3, nd: 529, ed: 1620, lv: 7, pw: 966.72
 INFO     : ... LUT mapping end (Real time : 1s)
 INFO     : ... Post-synthesis Verific netlist creation begin
 INFO     : ... Post-synthesis Verific netlist creation end (Real time : 0s)
 INFO     : ... Postmap Retiming Optimization begin
-INFO     : ... Clock Network 'main/SecondRegister/RegisterCLK' with 192 loads will be considered for retiming optimization.
+INFO     : ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for retiming optimization.
 INFO     : ... Clock Network 'MainCLK~MainCLK' with 132 loads will be considered for retiming optimization.
 INFO     : ... Clock Network 'SCLK~SCLK' with 15 loads will be considered for retiming optimization.
 INFO     : ... Clock Network 'main/AddressWrite' with 8 loads will be considered for retiming optimization.
 INFO     : ... Performed 0 retime moves.
-INFO     : ... Postmap Retiming Optimization end (Real time : 1s)
+INFO     : ... Postmap Retiming Optimization end (Real time : 0s)
 INFO     : ***** Beginning VDB Netlist Checker ... *****
-INFO     : VDB Netlist Checker took 0.0007568 seconds [FlowMsg::StageDuration]
+INFO     : VDB Netlist Checker took 0.0007903 seconds [FlowMsg::StageDuration]
 INFO     :     VDB Netlist Checker took 0 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : VDB Netlist Checker virtual memory usage: begin = 74.084 MB, end = 74.1 MB, delta = 0.016 MB [FlowMsg::VMUsage]
-INFO     :     VDB Netlist Checker peak virtual memory usage = 132.412 MB [FlowMsg::VMUsage::Peak]
-INFO     : VDB Netlist Checker resident set memory usage: begin = 88.372 MB, end = 88.44 MB, delta = 0.068 MB [FlowMsg::RSSUsage]
-INFO     :     VDB Netlist Checker peak resident set memory usage = 129.608 MB [FlowMsg::RSSUsage::Peak]
+INFO     : VDB Netlist Checker virtual memory usage: begin = 73.756 MB, end = 73.764 MB, delta = 0.008 MB [FlowMsg::VMUsage]
+INFO     :     VDB Netlist Checker peak virtual memory usage = 131.756 MB [FlowMsg::VMUsage::Peak]
+INFO     : VDB Netlist Checker resident set memory usage: begin = 88.404 MB, end = 88.464 MB, delta = 0.06 MB [FlowMsg::RSSUsage]
+INFO     :     VDB Netlist Checker peak resident set memory usage = 132.36 MB [FlowMsg::RSSUsage::Peak]
 INFO     : ***** Ending VDB Netlist Checker ... *****
 INFO     : Resource Summary 
 INFO     : =============================== 
 INFO     : EFX_ADD         : 	127
-INFO     : EFX_LUT4        : 	535
+INFO     : EFX_LUT4        : 	533
 INFO     : EFX_FF          : 	348
 INFO     : EFX_GBUFCE      : 	4
 INFO     : =============================== 
 INFO     : ... Post-Map Verilog Writer begin
 INFO     : Writing netlist 'PWM_IO_Expander' to Verilog file 'C:/Users/Timothy Marchant/.efinity/project/PWM_IO_Expander/outflow/PWM_IO_Expander.map.v' [VDB-1030]
 INFO     : ... Post-Map Verilog Writer end (Real time : 0s)
-INFO     : The entire flow of EFX_MAP took 2.2437937 seconds [FlowMsg::StageDuration]
-INFO     :     The entire flow of EFX_MAP took 1.6875 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
-INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 18.492 MB, end = 80.788 MB, delta = 62.296 MB [FlowMsg::VMUsage]
-INFO     :     The entire flow of EFX_MAP peak virtual memory usage = 132.412 MB [FlowMsg::VMUsage::Peak]
-INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 18.6 MB, end = 92.968 MB, delta = 74.368 MB [FlowMsg::RSSUsage]
-INFO     :     The entire flow of EFX_MAP peak resident set memory usage = 129.608 MB [FlowMsg::RSSUsage::Peak]
+INFO     : The entire flow of EFX_MAP took 2.6205715 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_MAP took 1.828125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_MAP virtual memory usage: begin = 18.464 MB, end = 80.092 MB, delta = 61.628 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_MAP peak virtual memory usage = 131.756 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_MAP resident set memory usage: begin = 18.68 MB, end = 92.544 MB, delta = 73.864 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_MAP peak resident set memory usage = 132.36 MB [FlowMsg::RSSUsage::Peak]

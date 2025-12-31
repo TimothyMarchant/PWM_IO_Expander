@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<efxpt:design_db name="PWM_IO_Expander" device_def="T8F81" version="2025.2.288.2.10" db_version="20252999" last_change_date="Tue Dec 30 11:51:42 2025" xmlns:efxpt="http://www.efinixinc.com/peri_design_db" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/peri_design_db peri_design_db.xsd ">
+<efxpt:design_db name="PWM_IO_Expander" device_def="T8F81" version="2025.2.288.2.10" db_version="20252999" last_change_date="Tue Dec 30 23:20:20 2025" xmlns:efxpt="http://www.efinixinc.com/peri_design_db" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/peri_design_db peri_design_db.xsd ">
     <efxpt:device_info>
         <efxpt:iobank_info>
             <efxpt:iobank name="1A" iostd="3.3 V LVTTL / LVCMOS"/>
@@ -19,6 +19,9 @@
                 <efxpt:netlist_parameter name="IN_REG" value="BYPASS"/>
             </efxpt:netlist_config>
             <efxpt:input_config name="CS" name_ddio_lo="" conn_type="normal" is_register="false" clock_name="" is_clock_inverted="false" pull_option="none" is_schmitt_trigger="false" ddio_type="none"/>
+        </efxpt:gpio>
+        <efxpt:gpio name="EN" gpio_def="GPIOL_03" mode="input" bus_name="" is_lvds_gpio="false" io_standard="3.3 V LVTTL / LVCMOS">
+            <efxpt:input_config name="EN" name_ddio_lo="" conn_type="normal" is_register="false" clock_name="" is_clock_inverted="false" pull_option="weak pullup" is_schmitt_trigger="false" ddio_type="none"/>
         </efxpt:gpio>
         <efxpt:gpio name="MISO" gpio_def="GPIOL_10" mode="output" bus_name="" is_lvds_gpio="false" io_standard="3.3 V LVTTL / LVCMOS">
             <efxpt:netlist_config netlist_checksum="PWM_IO_Expander.peri.db">
@@ -73,7 +76,7 @@
             </efxpt:netlist_config>
             <efxpt:input_config name="SCLK" name_ddio_lo="" conn_type="gclk" is_register="false" clock_name="" is_clock_inverted="false" pull_option="none" is_schmitt_trigger="false" ddio_type="none"/>
         </efxpt:gpio>
-        <efxpt:global_unused_config state="input with weak pullup"/>
+        <efxpt:global_unused_config state="input with weak pulldown"/>
         <efxpt:bus name="OnBoardLEDS" mode="output" msb="3" lsb="0"/>
     </efxpt:gpio_info>
     <efxpt:pll_info>

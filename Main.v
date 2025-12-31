@@ -1,6 +1,6 @@
 
 //hardware indepedent design
-module Main #(parameter NumOfPWMOutputs=4) (input CLK, input _CS, input SCLK, input MOSI, output MISO, input _RST, output [NumOfPWMOutputs-1:0] PWMOutputs);
+module Main #(parameter NumOfPWMOutputs=4) (input CLK, input _CS, input SCLK, input MOSI, output MISO, input _RST, input EN, output [NumOfPWMOutputs-1:0] PWMOutputs);
 //declarations
     wire TransferComplete;
     wire _Write;
@@ -8,7 +8,6 @@ module Main #(parameter NumOfPWMOutputs=4) (input CLK, input _CS, input SCLK, in
     reg[1:0] FirstByteReceived;
     reg TransferCompleteDelayReg;
     wire [7:0] SPIRXOutput;
-   // wire [7:0] SPITXInput;
     wire [7:0] AddressBus;
     wire [7:0] WriteBus;
     wire [7:0] FirstAddress;
@@ -20,6 +19,7 @@ assign FirstAddress = SPIRXOutput;
 assign AddressWrite= FirstByteReceived[1] ? TransferCompleteDelayReg : TransferComplete; //essentially delay address writing after the first byte has been received.
 assign _Write = ~(TransferComplete&FirstByteReceived[1]);
 assign FirstByteReceivedOut = FirstByteReceived[0]|FirstByteReceived[1];
+assign GatedCLK=CLK&EN; //Clock gating.  Allows user to disable all timers for some sort of power saving.
 initial begin
     FirstByteReceived<=0;
     TransferCompleteDelayReg<=0;
@@ -72,40 +72,18 @@ end
     .FirstAddress(FirstAddress),
     .AddressBus(AddressBus)
     );
-
-    PWMRegister #(.StartAddress(0)) FirstRegister 
-    (.CLK(CLK),
-    ._Write(_Write),
-    .AddressBus(AddressBus),
-    .DataIn(WriteBus),
-    ._RST(_RST),
-    .PWMOut(PWMOutputs[0])
+    genvar i;
+    generate
+        for (i=0;i<NumOfPWMOutputs;i=i+1) begin
+        PWMRegister #(.StartAddress(6*i)) FirstRegister 
+        (.CLK(GatedCLK),
+        ._Write(_Write),
+        .AddressBus(AddressBus),
+        .DataIn(WriteBus),
+        ._RST(_RST),
+        .PWMOut(PWMOutputs[i])
     );
+        end
 
-    PWMRegister #(.StartAddress(6)) SecondRegister 
-    (.CLK(CLK),
-    ._Write(_Write),
-    .AddressBus(AddressBus),
-    .DataIn(WriteBus),
-    ._RST(_RST),
-    .PWMOut(PWMOutputs[1])
-    );
-
-    PWMRegister #(.StartAddress(12)) ThirdRegister 
-    (.CLK(CLK),
-    ._Write(_Write),
-    .AddressBus(AddressBus),
-    .DataIn(WriteBus),
-    ._RST(_RST),
-    .PWMOut(PWMOutputs[2])
-    );
-
-    PWMRegister #(.StartAddress(18)) FourthRegister 
-    (.CLK(CLK),
-    ._Write(_Write),
-    .AddressBus(AddressBus),
-    .DataIn(WriteBus),
-    ._RST(_RST),
-    .PWMOut(PWMOutputs[3])
-    );
+    endgenerate
 endmodule

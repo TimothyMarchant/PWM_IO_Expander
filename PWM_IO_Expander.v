@@ -11,31 +11,36 @@ module PWM_IO_Expander (
     input CS, 
     input SCLK, 
     input MOSI, 
-    input RST,
+    input RST, //active LOW
+    input EN, //active HIGH (Pull low to disable).
     output MISO, 
     output [3:0] OnBoardLEDS
     );
-
-wire [3:0] PWMOutputs;
-assign OnBoardLEDS=PWMOutputs;
+//declarations
+wire [3:0] PWMOutputs; //generic wire for outputs of PWM registers.  Can increase size for more external GPIO.
 wire CLK;
-wire _CS;
-wire MISOReal;
-wire MOSIReal;
-wire SCLKReal;
-assign SCLKReal=SCLK;
-assign _CS=CS;
-assign MISOReal=MISO;
-assign MOSIReal=MOSI;
-assign CLK=MainCLK;
+//assignments
+assign OnBoardLEDS=~PWMOutputs; //external GPIO are open drain.
+
+//instantion.
 Main main 
-(.CLK(CLK), 
-._CS(_CS),
-.SCLK(SCLKReal),
-.MOSI(MOSIReal),
-.MISO(MISOReal),
+(.CLK(MainCLK), 
+._CS(CS),
+.SCLK(SCLK),
+.MOSI(MOSI),
+.MISO(MISO),
 ._RST(RST),
+.EN(EN),
 .PWMOutputs(PWMOutputs)
 );
+
+//required by efinix synthesis software.
+reg dummy;
+initial begin
+    dummy<=0;
+end
+always @ (posedge MainCLK) begin
+    dummy<=~dummy;
+end
 
 endmodule

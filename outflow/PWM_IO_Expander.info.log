@@ -5863,3 +5863,1687 @@
 [EFX-0000 INFO] =============================== 
 [EFX-0000 INFO] ... Post-Map Verilog Writer begin
 [EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 22:46:28
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2025.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'PWM_IO_Expander' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:9)
+[EFX-0012 VERI-INFO] compiling module 'Main' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:3)
+[EFX-0012 VERI-INFO] compiling module 'SPI_Slave(TXEnable=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:1)
+[EFX-0012 VERI-INFO] compiling module 'RX_SPI_Shift_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:1)
+[EFX-0012 VERI-INFO] compiling module 'SCLK_Counter' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:1)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0012 VERI-INFO] compiling module 'AddressPointer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:1)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:19)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'N_Bit_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=1)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=2)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=3)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=4)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=5)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'Timer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:2)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=7)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=8)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=9)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=10)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=11)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=13)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=14)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=15)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=16)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=17)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=19)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=20)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=21)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=22)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=23)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0256 WARNING] The primary output port 'MISO' wire 'MISO' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'spislave' input pin '_RST' is tied to constant (=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:15)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "PWM_IO_Expander"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" begin
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 3 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'MainCLK' with 132 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK' with 15 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 1 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 536, ed: 1705, lv: 6, pw: 994.20
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'MainCLK~MainCLK' with 132 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK~SCLK' with 15 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'main/AddressWrite' with 8 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	127
+[EFX-0000 INFO] EFX_LUT4        : 	535
+[EFX-0000 INFO] EFX_FF          : 	348
+[EFX-0000 INFO] EFX_GBUFCE      : 	4
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 22:52:20
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2025.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'PWM_IO_Expander' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:9)
+[EFX-0012 VERI-INFO] compiling module 'Main' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:3)
+[EFX-0012 VERI-INFO] compiling module 'SPI_Slave(TXEnable=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:1)
+[EFX-0012 VERI-INFO] compiling module 'RX_SPI_Shift_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:1)
+[EFX-0012 VERI-INFO] compiling module 'SCLK_Counter' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:1)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0012 VERI-INFO] compiling module 'AddressPointer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:1)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:19)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'N_Bit_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=1)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=2)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=3)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=4)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=5)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'Timer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:2)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=7)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=8)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=9)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=10)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=11)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=13)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=14)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=15)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=16)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=17)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=19)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=20)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=21)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=22)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=23)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'spislave' input pin '_RST' is tied to constant (=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "PWM_IO_Expander"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" begin
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 3 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" end (Real time : 0s)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:15)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'MainCLK' with 132 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK' with 15 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 1 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 536, ed: 1705, lv: 6, pw: 994.20
+[EFX-0000 INFO] ... LUT mapping end (Real time : 2s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'MainCLK~MainCLK' with 132 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK~SCLK' with 15 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'main/AddressWrite' with 8 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	127
+[EFX-0000 INFO] EFX_LUT4        : 	535
+[EFX-0000 INFO] EFX_FF          : 	348
+[EFX-0000 INFO] EFX_GBUFCE      : 	4
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 23:01:55
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2025.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'PWM_IO_Expander' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:9)
+[EFX-0012 VERI-INFO] compiling module 'Main' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:3)
+[EFX-0012 VERI-INFO] compiling module 'SPI_Slave(TXEnable=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:1)
+[EFX-0012 VERI-INFO] compiling module 'RX_SPI_Shift_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:1)
+[EFX-0012 VERI-INFO] compiling module 'SCLK_Counter' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:1)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0012 VERI-INFO] compiling module 'AddressPointer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:1)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:19)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'N_Bit_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=1)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=2)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=3)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=4)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=5)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'Timer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:2)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=7)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=8)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=9)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=10)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=11)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=13)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=14)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=15)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=16)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=17)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=19)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=20)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=21)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=22)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=23)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'spislave' input pin '_RST' is tied to constant (=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "PWM_IO_Expander"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" begin
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 3 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" end (Real time : 0s)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:16)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'MainCLK' with 132 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK' with 15 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 1 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 536, ed: 1705, lv: 6, pw: 993.64
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'MainCLK~MainCLK' with 132 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK~SCLK' with 15 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'main/AddressWrite' with 8 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0011 VERI-WARNING] Input/inout port EN is unconnected. Place and route may remove this unconnected port. (VDB-8003) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:15)
+[EFX-0011 VERI-WARNING] Found 1 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	127
+[EFX-0000 INFO] EFX_LUT4        : 	539
+[EFX-0000 INFO] EFX_FF          : 	348
+[EFX-0000 INFO] EFX_GBUFCE      : 	4
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 23:05:31
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2025.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'PWM_IO_Expander' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:9)
+[EFX-0012 VERI-INFO] compiling module 'Main' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:3)
+[EFX-0012 VERI-INFO] compiling module 'SPI_Slave(TXEnable=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:1)
+[EFX-0012 VERI-INFO] compiling module 'RX_SPI_Shift_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:1)
+[EFX-0012 VERI-INFO] compiling module 'SCLK_Counter' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:1)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0012 VERI-INFO] compiling module 'AddressPointer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:1)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:19)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'N_Bit_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=1)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=2)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=3)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=4)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=5)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'Timer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:2)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=7)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=8)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=9)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=10)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=11)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=13)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=14)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=15)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=16)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=17)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=19)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=20)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=21)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=22)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=23)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'spislave' input pin '_RST' is tied to constant (=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:56)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "PWM_IO_Expander"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" begin
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 3 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" end (Real time : 0s)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:16)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'CLK' with 132 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK' with 15 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 1 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 537, ed: 1676, lv: 6, pw: 989.12
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'CLK' with 132 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK~SCLK' with 15 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'main/AddressWrite' with 8 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	127
+[EFX-0000 INFO] EFX_LUT4        : 	541
+[EFX-0000 INFO] EFX_FF          : 	348
+[EFX-0000 INFO] EFX_GBUFCE      : 	4
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 23:08:38
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2025.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'GatedCLK', assumed default net type 'wire' (VERI-2561) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:23)
+[EFX-0010 VERI-ERROR] 'EN' is not declared (VERI-1128) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:23)
+[EFX-0010 VERI-ERROR] module 'Main' is ignored due to previous errors (VERI-1072) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:90)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 23:09:04
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2025.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'GatedCLK', assumed default net type 'wire' (VERI-2561) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:23)
+[EFX-0012 VERI-INFO] compiling module 'PWM_IO_Expander' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:9)
+[EFX-0012 VERI-INFO] compiling module 'Main' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:3)
+[EFX-0012 VERI-INFO] compiling module 'SPI_Slave(TXEnable=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:1)
+[EFX-0012 VERI-INFO] compiling module 'RX_SPI_Shift_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:1)
+[EFX-0012 VERI-INFO] compiling module 'SCLK_Counter' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:1)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0012 VERI-INFO] compiling module 'AddressPointer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:1)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:19)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'N_Bit_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=1)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=2)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=3)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=4)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=5)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'Timer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:2)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=7)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=8)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=9)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=10)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=11)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=13)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=14)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=15)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=16)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=17)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=19)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=20)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=21)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=22)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=23)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'spislave' input pin '_RST' is tied to constant (=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "PWM_IO_Expander"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" begin
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 3 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" end (Real time : 0s)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:16)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'main/GatedCLK' with 132 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK' with 15 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 1 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 537, ed: 1676, lv: 6, pw: 989.12
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'main/GatedCLK' with 132 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK~SCLK' with 15 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'main/AddressWrite' with 8 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	127
+[EFX-0000 INFO] EFX_LUT4        : 	541
+[EFX-0000 INFO] EFX_FF          : 	348
+[EFX-0000 INFO] EFX_GBUFCE      : 	4
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 30, 2025 23:10:20
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2025.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'GatedCLK', assumed default net type 'wire' (VERI-2561) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:23)
+[EFX-0012 VERI-INFO] compiling module 'PWM_IO_Expander' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:9)
+[EFX-0012 VERI-INFO] compiling module 'Main' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:3)
+[EFX-0012 VERI-INFO] compiling module 'SPI_Slave(TXEnable=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:1)
+[EFX-0012 VERI-INFO] compiling module 'RX_SPI_Shift_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:1)
+[EFX-0012 VERI-INFO] compiling module 'SCLK_Counter' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:1)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0012 VERI-INFO] compiling module 'AddressPointer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:1)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:19)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'N_Bit_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=1)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=2)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=3)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=4)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=5)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'Timer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:2)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:28)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:32)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=7)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=8)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=9)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=10)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=11)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=13)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=14)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=15)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=16)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=17)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=19)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=20)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=21)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=22)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=23)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'spislave' input pin '_RST' is tied to constant (=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "PWM_IO_Expander"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" begin
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 3 flops.
+[EFX-0000 INFO] ... Extracted 132 gated clock conditions to clock-enable signals.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" end (Real time : 0s)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:16)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'MainCLK' with 132 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK' with 15 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 1 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 529, ed: 1620, lv: 7, pw: 966.72
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'MainCLK~MainCLK' with 132 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK~SCLK' with 15 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'main/AddressWrite' with 8 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	127
+[EFX-0000 INFO] EFX_LUT4        : 	533
+[EFX-0000 INFO] EFX_FF          : 	348
+[EFX-0000 INFO] EFX_GBUFCE      : 	4
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Dec 31, 2025 14:34:19
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "C:/Efinity/2025.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] undeclared symbol 'GatedCLK', assumed default net type 'wire' (VERI-2561) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:23)
+[EFX-0012 VERI-INFO] compiling module 'PWM_IO_Expander' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:9)
+[EFX-0012 VERI-INFO] compiling module 'Main' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:3)
+[EFX-0012 VERI-INFO] compiling module 'SPI_Slave(TXEnable=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:1)
+[EFX-0012 VERI-INFO] compiling module 'RX_SPI_Shift_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:1)
+[EFX-0012 VERI-INFO] compiling module 'SCLK_Counter' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:1)
+[EFX-0011 VERI-WARNING] expression size 5 truncated to fit in target size 4 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:36)
+[EFX-0011 VERI-WARNING] invert of if-condition matches sensitivity list edge; this is unconventional (VERI-2548) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SCLK_Counter.v:45)
+[EFX-0012 VERI-INFO] compiling module 'AddressPointer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:1)
+[EFX-0011 VERI-WARNING] expression size 9 truncated to fit in target size 8 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressSystem.v:19)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=0)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'N_Bit_Register' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\N_Register.v:2)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=1)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=2)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=3)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=4)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=5)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'Timer' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:2)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:30)
+[EFX-0011 VERI-WARNING] expression size 17 truncated to fit in target size 16 (VERI-1209) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Timer.v:34)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=6)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=7)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=8)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=9)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=10)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=11)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=12)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=13)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=14)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=15)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=16)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=17)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'PWMRegister(StartAddress=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_Register.v:10)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=18)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=19)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=20)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=21)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=22)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0012 VERI-INFO] compiling module 'AddressableRegister(AddressValue=23)' (VERI-1018) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\AddressableRegister.v:1)
+[EFX-0011 VERI-WARNING] input port 'TXDataLine[7]' is not connected on this instance (VDB-1013) (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (C:/Efinity/2025.2/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : i[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : i[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Shift_Register.v:10)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : TXDataLine[0]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:4)
+[EFX-0200 WARNING] Removing redundant signal : MISO. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:7)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[7]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[6]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[5]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[4]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[3]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[2]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0200 WARNING] Removing redundant signal : SecondRXDataLine[1]. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\SPI_Slave.v:12)
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'SwitchValueLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerCountLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerUpper' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'TimerPrescalerLower' input pin '_HOLD' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'spislave' input pin '_RST' is tied to constant (=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[7]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[6]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[5]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[4]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[3]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[2]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[1]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'spislave.TXDataLine[0]'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\Main.v:57)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "PWM_IO_Expander"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RX_SPI_Shift_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SCLK_Counter" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "SPI_Slave(TXEnable=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressPointer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "N_Bit_Register" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=5)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Timer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=15)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=17)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=19)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=20)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=21)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=22)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AddressableRegister(AddressValue=23)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMRegister(StartAddress=18)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Main" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" begin
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 3 flops.
+[EFX-0000 INFO] ... Extracted 132 gated clock conditions to clock-enable signals.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWM_IO_Expander" end (Real time : 0s)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'MISO'. (C:\Users\Timothy Marchant\.efinity\project\PWM_IO_Expander\PWM_IO_Expander.v:16)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'MainCLK' with 132 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK' with 15 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 1 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 529, ed: 1620, lv: 7, pw: 966.72
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'main/genblk1[1].FirstRegister/RegisterCLK' with 192 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'MainCLK~MainCLK' with 132 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'SCLK~SCLK' with 15 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'main/AddressWrite' with 8 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	127
+[EFX-0000 INFO] EFX_LUT4        : 	533
+[EFX-0000 INFO] EFX_FF          : 	348
+[EFX-0000 INFO] EFX_GBUFCE      : 	4
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s)

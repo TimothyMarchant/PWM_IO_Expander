@@ -1,3 +1,4 @@
+//meant for determining if a SPI transfer has completed or not.  Assumes 8 bits is one complete transfer.
 module SCLK_Counter 
 (
 input CLK, 

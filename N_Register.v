@@ -1,3 +1,4 @@
+//modifiable registers.  Defaults to 8-bit width.
 module N_Bit_Register #(parameter BitWidth=8) (input CLK, input _HOLD, input _RST, input[BitWidth-1:0] DataIn,output[BitWidth-1:0] DataOut);
 
 reg [BitWidth-1:0] Registers;
@@ -9,7 +10,7 @@ initial begin
 end
 
 
-
+//normal flipflop.
 always @(posedge CLK or negedge _RST) begin
     if (_RST==0) begin 
         Registers<=0;

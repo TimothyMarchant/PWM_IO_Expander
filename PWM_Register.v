@@ -1,11 +1,9 @@
 /*
-PWM 
-Allows one output to have a selectable duty cycle and fixed frequency (frequency choosable from a few options).
-Frequency options 50hz, 120hz, 200hz, 400hz, 1000hz, 2000hz, and 4000hz.
+PWM register.  Contains six registers where the first two determine when the output should switch polarities,
+The next two determine the actual period before a reset.  And the last one is a prescaler (Works similiarly to how they work on a MCU).
 
 
 */
-
 
 module PWMRegister # (parameter StartAddress=0, parameter AddressWidth=8) 
 (input CLK,input _Write,input [AddressWidth-1:0] AddressBus, input [7:0] DataIn, input _RST, output PWMOut);

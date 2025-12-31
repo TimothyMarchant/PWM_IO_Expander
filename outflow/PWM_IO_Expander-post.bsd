@@ -53,7 +53,7 @@ port (
 	GPIOL_00                      : in bit;
 	GPIOL_01_SS_N                 : linkage bit;
 	GPIOL_02_CCK                  : linkage bit;
-	GPIOL_03_CDI4                 : linkage bit;
+	GPIOL_03_CDI4                 : in bit;
 	GPIOL_04_CDI0                 : linkage bit;
 	GPIOL_05_CDI5                 : linkage bit;
 	GPIOL_06_CDI1                 : linkage bit;
@@ -529,7 +529,7 @@ attribute BOUNDARY_REGISTER of T8F81 : entity is
 	"184 (BC_1, *, internal, 1)," &
 	"185 (BC_1, *, internal, X)," &
 
-	"186 (BC_1, *, internal, X)," &
+	"186 (BC_1, GPIOL_03_CDI4, input, X)," &
 	"187 (BC_1, *, internal, 1)," &
 	"188 (BC_1, *, internal, X)," &
 
